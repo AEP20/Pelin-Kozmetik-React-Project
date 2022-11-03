@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/Pelin-Kozmetik-React-Project/static/css/main.8971ffff.chunk.css",
+    "main.js": "/Pelin-Kozmetik-React-Project/static/js/main.2ffe8d33.chunk.js",
+    "main.js.map": "/Pelin-Kozmetik-React-Project/static/js/main.2ffe8d33.chunk.js.map",
+    "runtime-main.js": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js",
+    "runtime-main.js.map": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js.map",
+    "static/css/2.a1596f27.chunk.css": "/Pelin-Kozmetik-React-Project/static/css/2.a1596f27.chunk.css",
+    "static/js/2.d1400a9e.chunk.js": "/Pelin-Kozmetik-React-Project/static/js/2.d1400a9e.chunk.js",
+    "static/js/2.d1400a9e.chunk.js.map": "/Pelin-Kozmetik-React-Project/static/js/2.d1400a9e.chunk.js.map",
+    "index.html": "/Pelin-Kozmetik-React-Project/index.html",
+    "static/css/2.a1596f27.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/2.a1596f27.chunk.css.map",
+    "static/css/main.8971ffff.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/main.8971ffff.chunk.css.map",
+    "static/js/2.d1400a9e.chunk.js.LICENSE.txt": "/Pelin-Kozmetik-React-Project/static/js/2.d1400a9e.chunk.js.LICENSE.txt",
+    "static/media/BackgroundVideo.b78693fc.mp4": "/Pelin-Kozmetik-React-Project/static/media/BackgroundVideo.b78693fc.mp4"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4e61ed67.js",
+    "static/css/2.a1596f27.chunk.css",
+    "static/js/2.d1400a9e.chunk.js",
+    "static/css/main.8971ffff.chunk.css",
+    "static/js/main.2ffe8d33.chunk.js"
+  ]
+}
