@@ -8,7 +8,7 @@ function Footer() {
       <div className="footer-sub-container">
         <div
           className="wave wave1"
-          style={{ backgroundImage: "url(/img/wave.png)" }}
+          style={{ backgroundImage: "url(./img/wave.png)" }}
         ></div>
         <div className="footer-bottom-container">
           <div className="footer-left-container">
@@ -56,7 +56,7 @@ function Footer() {
             </div>
           </div>
         </div>
-        <div className="rights-container"><p>© KDY Pelin Kozmetik. All Rights Reserved.</p></div>
+        <div className="rights-container"><p>© Pelin Kozmetik. All Rights Reserved.</p></div>
       </div>
     </div>
   );
