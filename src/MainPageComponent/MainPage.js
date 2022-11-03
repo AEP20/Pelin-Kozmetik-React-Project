@@ -28,54 +28,7 @@ function MainPage() {
           <div className="bottom-main-container">
             <div className="bottom-award-container">
               <div className="award-sub-container1">
-                <div className="award-container">
-                  <div className="award-img">
-                    <img src="./referans/A101.png"></img>
-                  </div>
-                </div>
-
-                <div className="award-container">
-                  <div className="award-img">
-                    <img src="./referans/EnglishHome.png"></img>
-                  </div>
-                </div>
-
-                <div className="award-container">
-                  <div className="award-img">
-                    <img src="./referans/Eve.png"></img>
-                  </div>
-                </div>
-
-                <div className="award-container">
-                  <div className="award-img">
-                    <img src="./referans/FDPlantix.png"></img>
-                  </div>
-                </div>
-              </div>
-              <div className="award-sub-container2">
-                <div className="award-container">
-                  <div className="award-img">
-                    <img src="./referans/Jeunesse.png"></img>
-                  </div>
-                </div>
-
-                <div className="award-container">
-                  <div className="award-img">
-                    <img src="./referans/marieClaire.webp"></img>
-                  </div>
-                </div>
-
-                <div className="award-container">
-                  <div className="award-img">
-                    <img src="./referans/SunBrown.png"></img>
-                  </div>
-                </div>
-
-                <div className="award-container">
-                  <div className="award-img">
-                    <img src="./referans/Watsons.png"></img>
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
