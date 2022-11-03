@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_2" data-name="katman 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 341 417.13">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #1d1d1b;
+      }
+
+      .cls-2 {
+        fill: #fff;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        stroke: #1d1d1b;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #ededed;
+      }
+
+      .cls-4 {
+        fill: #19223e;
+      }
+
+      .cls-5 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="katman_1" data-name="katman 1">
+    <rect class="cls-2" x="126.24" y="90.74" width="81.21" height="32.59"/>
+    <polyline class="cls-5" points="126.24 90.74 126.24 .5 207.45 .5 207.45 90.74"/>
+    <rect class="cls-2" x="144.81" y="20.5" width="44.18" height="70.24"/>
+    <polygon class="cls-3" points="144.81 77.61 188.99 90.74 144.81 90.74 144.81 77.61"/>
+    <circle class="cls-5" cx="167.81" cy="45.62" r="5.42"/>
+    <circle class="cls-1" cx="167.81" cy="45.62" r=".54"/>
+    <rect class="cls-4" x="87.5" y="123.32" width="160.28" height="293.31"/>
+    <rect class="cls-2" x="113.67" y="164.29" width="103.94" height="199.19"/>
+  </g>
+</svg>

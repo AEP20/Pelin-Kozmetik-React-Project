@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_2" data-name="katman 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 342.61 396.21">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3 {
+        stroke: #1d1d1b;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-4 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-2 {
+        fill: #dadada;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #19223e;
+      }
+
+      .cls-4 {
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="katman_1" data-name="katman 1">
+    <rect class="cls-3" x="87.47" y="81.02" width="171.45" height="314.7"/>
+    <rect class="cls-1" x="135.27" y="47.89" width="72.48" height="33.13"/>
+    <polygon class="cls-1" points="145.91 .5 145.91 47.89 195.5 47.89 195.5 17.77 229.23 17.77 229.23 .5 145.91 .5"/>
+    <polygon class="cls-2" points="189.74 47.89 145.91 29.01 145.91 47.89 189.74 47.89"/>
+    <rect class="cls-4" x="113.25" y="116.23" width="119.88" height="246.55"/>
+    <g>
+      <circle class="cls-1" cx="157.91" cy="161.6" r="18.14"/>
+      <circle class="cls-1" cx="187.44" cy="170.03" r="8.44" transform="translate(-10.43 327.81) rotate(-80.78)"/>
+      <circle class="cls-1" cx="175.42" cy="191.86" r="13.39"/>
+      <path class="cls-1" d="M162.02,173.13s6.91,.8,7.17-7.42"/>
+      <path class="cls-1" d="M176.05,198.32s4.82,1.06,6.14-5.04"/>
+      <path class="cls-1" d="M189.64,174.43s3.24-.96,3-3.48"/>
+    </g>
+    <line class="cls-1" y1="395.71" x2="342.61" y2="395.71"/>
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="katman_2" data-name="katman 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 345.56 276.08">
+  <defs>
+    <style>
+      .cls-1, .cls-2 {
+        fill: #f6f6f6;
+      }
+
+      .cls-3, .cls-4 {
+        fill: #19223e;
+      }
+
+      .cls-5 {
+        fill: #fff;
+        stroke: #fff;
+      }
+
+      .cls-5, .cls-6, .cls-4, .cls-2, .cls-7 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-6 {
+        fill: #e30b13;
+      }
+
+      .cls-6, .cls-4, .cls-2, .cls-7 {
+        stroke: #1d1d1b;
+      }
+
+      .cls-7 {
+        fill: none;
+      }
+    </style>
+  </defs>
+  <g id="katman_1" data-name="katman 1">
+    <line class="cls-2" y1="275.58" x2="345.56" y2="275.58"/>
+    <g>
+      <g>
+        <rect class="cls-3" x="51.39" y="115.77" width="249.79" height="159.81"/>
+        <rect class="cls-7" x="51.39" y="115.77" width="249.79" height="159.81"/>
+      </g>
+      <path class="cls-4" d="M78.62,67.61v48.15h190.94v-48.15H78.62Z"/>
+      <polygon class="cls-1" points="76.71 147.16 76.71 246.58 275.87 246.58 275.87 148.45 76.71 147.16"/>
+      <line class="cls-5" x1="78.68" y1="107.39" x2="269.75" y2="107.39"/>
+      <line class="cls-5" x1="78.56" y1="92.94" x2="269.63" y2="92.94"/>
+      <line class="cls-5" x1="78.56" y1="78.49" x2="269.63" y2="78.49"/>
+      <path class="cls-6" d="M254.25,66.88s-8.24-18.1-27.62-18.1c0,0-10.81-17.59-22.9-21.24s-17.75-7.91-20.94-11.53-4.59-11.88,0-14.55-17.24-1.29-31.27,24.99c0,0-21.11,10.76-19.61,16.88,0,0-25.94,6.52-31.02,24.29l153.36-.74Z"/>
+    </g>
+  </g>
+</svg>
