@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Statistics.css";
+import foto from './statistic-icon1.svg';
 
 
 function Statistics() {
@@ -9,7 +10,7 @@ function Statistics() {
         <div className='statistics-sub-container'>
             <div className='statistics-upper'>
                 <div className='statistic-box'>
-                    <div className='icon-container'><img src="./img/statistic-icon1.svg"></img></div>
+                    <div className='icon-container'><img src={foto}></img></div>
                     <div className='statistic'><p>+250 Mutlu Müşteri</p></div>
                 </div>
 
