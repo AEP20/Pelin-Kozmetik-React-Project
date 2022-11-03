@@ -1,0 +1,133 @@
+.statistics-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 25vh;
+    margin-top: 180px;
+}
+
+.statistics-title-container{
+    margin-bottom: 20px;
+}
+
+.statistics-title-container h1{
+    font-family: elza-narrow, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 18px;
+    color: #D2001A;
+}
+
+.statistics-sub-container{
+    height: 100%;
+    width: 100%;
+    background-color: #16213E;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.statistics-upper{
+    height: 95%;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
+
+.statistics-bottom{
+    height: 5%;
+    width: 100%;
+    background-color: #D2001A;
+}
+
+.statistic-box {
+    height: 100%;
+    width: 20%;
+
+}
+
+.icon-container{
+    height: 75%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-container img{
+    height: 70%;
+    filter: brightness(0) invert(1);
+}
+
+.statistic{
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    text-align: center;
+
+}
+
+.statistic p{
+    font-family: interstate,sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 18px;
+    color: white;
+}
+
+
+
+
+@media only screen and (max-width: 950px) {
+    .icon-container img{
+        height: 50%;
+    }
+
+    .statistic p{
+        font-size: 16px;
+    }
+    
+}
+
+@media only screen and (max-width: 500px) {
+    .icon-container img{
+        width: 80%;
+    }
+
+    .statistic{
+        margin-bottom: 20px;
+    }
+    
+    .statistic p{
+        font-size: 12px;
+    }
+
+    .icon-container{
+        height: 60%;
+    }
+
+    .statistics-title-container{
+        margin-bottom: 20px;
+    }
+
+    .statistics-title-container h1{
+        font-size: 12px;
+    }
+
+    .statistics-container{
+
+        margin-top: 70px;
+    }
+    
+}

@@ -1,0 +1,72 @@
+@import url("https://use.typekit.net/sfb7vbl.css");
+@import url("https://use.typekit.net/sfb7vbl.css");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: rgb(255, 255, 255);
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+}
+.container{
+  width: 100wh;
+  height: 60px;
+}
+
+.navbar {
+  min-height: 60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 24px;
+
+  z-index: 3;
+  width: 100%;
+  background-color: rgb(22, 33, 62);
+
+  position: fixed;
+}
+
+.nav-branding {
+  height: 50px;
+  display: flex;
+  filter: brightness(0) invert(1);
+  margin-left: 16px;
+  margin-bottom: 5px;
+}
+
+.nav-item {
+  transition: 0.1s ease;
+}
+
+.nav-item:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.navbar img:hover {
+  cursor: pointer;
+}
+
+@media (max-width: 900px) {
+  .nav-item {
+    margin: 16px 0;
+  }
+}
+
+@media (max-width: 425px) {
+  .nav-branding {
+    height: 40px;
+  }
+}

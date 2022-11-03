@@ -1,0 +1,129 @@
+.contact-form-left-container{
+    height: 90%;
+    width: 30%;
+
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.contact-form-sub-left-container{
+    height: 90%;
+    width: 85%;
+
+    background-color: #16213E;
+    border-radius: 10px;
+    position: relative;
+
+    
+}
+
+.contact-form-sub-left-title-container{
+    height: 20%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form-sub-left-title-container h1{
+    font-family: elza-narrow, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 35px;
+}
+
+.contact-form-sub-left-main-container{
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.contact-form-text-logo-container{
+    height: 25%;
+    width: 100%;
+
+    display: flex;
+}
+
+.contact-form-logo-container{
+    height: 100%;
+    width: 25%;
+
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.contact-form-text-logo-container img{
+    height: 35%;
+    filter: brightness(0) invert(1);
+    margin-right: 20px;
+}
+
+.contact-form-text-container{
+    height: 100%;
+    width: 75%;
+
+    display: flex;
+    align-items: center;
+}
+
+.contact-form-text-container p{
+    font-family: elza-narrow, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: white;
+    font-size: 16px;
+}
+
+
+
+
+@media only screen and (max-width: 1150px) {
+    
+    .contact-form-text-logo-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+        margin: 30px 0 30px 0;
+    }
+
+    .contact-form-text-logo-container img{
+        min-height: 60%;
+    }
+
+    .contact-form-sub-left-main-container{
+        bottom: 60px;
+
+    }
+
+    .contact-form-text-container{
+        justify-content: center;
+        text-align: center;
+    }
+
+    .contact-form-sub-left-title-container h1{
+        font-size: 30px;
+    }
+}
+
+
+@media only screen and (max-width: 1000px) {
+    .contact-form-left-container{
+        display: none;
+    }
+
+    .contact-form-sub-container{
+        justify-content: center;
+    }
+}

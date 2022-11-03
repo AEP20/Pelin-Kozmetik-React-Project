@@ -1,0 +1,45 @@
+@import url("https://use.typekit.net/sfb7vbl.css");
+
+
+.viewport-header{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.upper-main-container{
+    height: 80%;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+    background-color: rgba(0, 0, 0, 0.35);
+
+
+}
+
+.upper-sub-container{
+    height: 65%;
+    width: 40%;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.button1:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.button2:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+

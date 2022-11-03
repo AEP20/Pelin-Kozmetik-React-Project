@@ -1,0 +1,120 @@
+@import url("https://use.typekit.net/sfb7vbl.css");
+@import url("https://use.typekit.net/sfb7vbl.css");
+
+.about-us-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-us-title-container {
+  height: 20vh;
+  width: 100%;
+  background-color: #16213e;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-us-title-container h1 {
+  color: white;
+  font-family: elza-narrow, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 100px;
+}
+
+.about-us-sub-container {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+  padding-top: 180px;
+}
+
+.about-us-sub-title-container {
+  margin: 20px;
+}
+
+.about-us-sub-title-container h1 {
+  font-family: elza-narrow, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #d2001a;
+  text-align: center;
+}
+
+.about-us-info-container {
+  height: 100%;
+  width: 100%;
+}
+.about-us-info-container .info:nth-child(odd) {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(29, 31, 34, 0.15);
+}
+
+.about-us-info-container .info:nth-child(even) {
+  height: 100px;
+  width: 100%;
+  background-color: rgba(29, 31, 34, 0.05);
+}
+
+.about-us-container .info {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 1rem 0 1rem;
+}
+
+.info p {
+  font-family: elza-narrow, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 950px) {
+  .about-us-title-container h1 {
+    font-size: 70px;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .about-us-title-container h1 {
+    font-size: 50px;
+  }
+
+  .about-us-sub-container {
+    padding-top: 60px;
+  }
+
+  .about-us-title-container h1 {
+    font-size: 40px;
+  }
+
+  .about-us-title-container {
+    height: 15vh;
+
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .info p {
+
+    font-size: 14px;
+    text-align: left;
+  }
+
+  .about-us-sub-title-container h1 {
+    font-size: 12px;
+  }
+}

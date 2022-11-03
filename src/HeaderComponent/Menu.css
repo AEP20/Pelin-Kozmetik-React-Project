@@ -1,0 +1,31 @@
+@import url("https://use.typekit.net/sfb7vbl.css");
+@import url("https://use.typekit.net/sfb7vbl.css");
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 36px;
+  margin-right: 36px;
+  font-size: 18px;
+  font-family: elza-narrow, sans-serif;
+  font-weight: 300;
+}
+
+@media (max-width: 940px) {
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 60px;
+    flex-direction: column;
+    background-color: rgb(22, 33, 62);
+    width: 100%;
+    text-align: center;
+    transition: 0.3s;
+  }
+
+  .nav-menu.active {
+    position: fixed;
+    left: 0;
+  }
+}
