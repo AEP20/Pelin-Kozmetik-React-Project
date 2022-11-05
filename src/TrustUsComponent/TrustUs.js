@@ -18,6 +18,9 @@ function TrustUs() {
           <img src={iso} alt="iso"></img>
         </div>
       </div>
+
+  <div className='tabs-main-title-container'><h1>Ürünlerimiz</h1></div>
+
     </div>
   );
 }
