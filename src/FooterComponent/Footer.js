@@ -1,6 +1,12 @@
 import React from "react";
 import "./FooterAnimation.css";
 import "./Footer.css";
+import PelinLogo from "./PelinLogo.svg";
+import wave from "./wave.png";
+import icon1 from "./mail.svg";
+import icon2 from "./phone.svg";
+import icon3 from "./location.svg";
+
 
 function Footer() {
   return (
@@ -13,7 +19,7 @@ function Footer() {
         <div className="footer-bottom-container">
           <div className="footer-left-container">
             <div className="footer-left-img-container">
-              <img src="./img/PelinLogo.svg"></img>
+              <img src={PelinLogo}></img>
             </div>
             <div className="footer-left-container-p">
               <p>
@@ -28,7 +34,7 @@ function Footer() {
           <div className="footer-right-container">
             <div className="logo-text-container">
               <div className="footer-logo-container">
-                <img src="./img/mail.svg"></img>
+                <img src={icon1}></img>
               </div>
               <div className="footer-text-container">
                 <p>info@pelinkozmetik.com.tr</p>
@@ -37,7 +43,7 @@ function Footer() {
 
             <div className="logo-text-container">
               <div className="footer-logo-container">
-                <img src="./img/phone.svg"></img>
+                <img src={icon2}></img>
               </div>
               <div className="footer-text-container">
                 <p>+90 216 378 60 22 - 23</p>
@@ -46,7 +52,7 @@ function Footer() {
 
             <div className="logo-text-container">
               <div className="footer-logo-container">
-                <img src="./img/location.svg"></img>
+                <img src={icon3}></img>
               </div>
               <div className="footer-text-container">
                 <p>

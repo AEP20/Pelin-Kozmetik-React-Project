@@ -6,7 +6,11 @@ import Typography from "@mui/material/Typography";
 import Box from "@mui/material/Box";
 import { height } from "@mui/system";
 import "./Tabs.css";
-import { blue, red } from "@mui/material/colors";
+import kozmetik1 from "./Kozmetik1.svg";
+import kozmetik2 from "./Kozmetik2.svg";
+import kozmetik3 from "./Kozmetik3.svg";
+import kozmetik4 from "./Kozmetik4.svg";
+import kozmetik5 from "./Kozmetik5.svg";
 
 
 
@@ -55,7 +59,7 @@ export default function BasicTabs() {
 
   return (
     <Box sx={{ width: "100%" }} className="tabs-container" id="ürünlerimiz">
-      <Box sx={{}} className="tabs-button-container" >
+      <Box sx={{}} className="tabs-button-container">
         <Tabs
           value={value}
           onChange={handleChange}
@@ -113,7 +117,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src="./img/Kozmetik1.svg"></img>
+            <img src={kozmetik1}></img>
           </div>
         </div>
       </TabPanel>
@@ -131,7 +135,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src="./img/Kozmetik2.svg"></img>
+            <img src={kozmetik2}></img>
           </div>
         </div>
       </TabPanel>
@@ -149,7 +153,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src="./img/Kozmetik3.svg"></img>
+            <img src={kozmetik3}></img>
           </div>
         </div>
       </TabPanel>
@@ -167,7 +171,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src="./img/Kozmetik4.svg"></img>
+            <img src={kozmetik4}></img>
           </div>
         </div>
       </TabPanel>
@@ -186,7 +190,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src="./img/Kozmetik5.svg"></img>
+            <img src={kozmetik5}></img>
           </div>
         </div>
       </TabPanel>

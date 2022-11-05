@@ -2,6 +2,8 @@ import React, { useState } from "react";
 import "./Header.css";
 import Button from "./Button";
 import Menu from "./Menu";
+import PelinLogo from './PelinLogo.svg';
+
 
 function Header() {
 
@@ -12,7 +14,7 @@ function Header() {
           <header>
             <nav className="navbar">
               <a>
-                <img src="./img/PelinLogo.svg" className="nav-branding"></img>
+                <img src={PelinLogo} className="nav-branding"></img>
               </a>
               <Menu btnState={btnState}></Menu>
               <Button setBtnState={setBtnState} btnState={btnState}></Button>

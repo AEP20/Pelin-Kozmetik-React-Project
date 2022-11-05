@@ -1,6 +1,9 @@
 import "./ContactForm.css";
 import "./ContactFormRight.css";
 import "./ContactFormLeft.css";
+import icon1 from "./mail.svg";
+import icon2 from "./phone.svg";
+import icon3 from "./location.svg";
 
 
 
@@ -18,17 +21,17 @@ function ContactForm() {
                     <div className='contact-form-sub-left-title-container'><h1>İletişim Bilgileri</h1></div>
                     <div className='contact-form-sub-left-main-container'>
                         <div className='contact-form-text-logo-container'>
-                            <div className='contact-form-logo-container'><img src="./img/mail.svg"></img></div>
+                            <div className='contact-form-logo-container'><img src={icon1}></img></div>
                             <div className='contact-form-text-container'><p>info@pelinkozmetik.com.tr</p></div>
                         </div>
 
                         <div className='contact-form-text-logo-container'>
-                            <div className='contact-form-logo-container'><img src="./img/phone.svg"></img></div>
+                            <div className='contact-form-logo-container'><img src={icon2}></img></div>
                             <div className='contact-form-text-container'><p>+90 216 378 60 22 - 23</p></div>
                         </div>
 
                         <div className='contact-form-text-logo-container'>
-                            <div className='contact-form-logo-container'><img src="./img/location.svg"></img></div>
+                            <div className='contact-form-logo-container'><img src={icon3}></img></div>
                             <div className='contact-form-text-container'><p>Sanayi Mah. Akçiçek Sok. No: 4/2 Kurtköy / Pendik - İSTANBUL</p></div>
                         </div>
                     </div>
