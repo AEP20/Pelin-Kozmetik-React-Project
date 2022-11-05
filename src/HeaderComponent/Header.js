@@ -13,7 +13,7 @@ function Header() {
         <div className="container">
           <header>
             <nav className="navbar">
-              <a>
+              <a href="#anasayfa">
                 <img src={PelinLogo} alt="Pelin Kozmetik Logo" className="nav-branding"></img>
               </a>
               <Menu btnState={btnState}></Menu>
