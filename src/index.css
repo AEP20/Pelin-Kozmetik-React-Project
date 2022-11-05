@@ -15,5 +15,7 @@ body {
   padding: 0;
 }
 
-
+h1 p label textarea input{
+  font-display: swap;
+}
 

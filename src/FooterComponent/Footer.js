@@ -19,7 +19,7 @@ function Footer() {
         <div className="footer-bottom-container">
           <div className="footer-left-container">
             <div className="footer-left-img-container">
-              <img src={PelinLogo}></img>
+              <img src={PelinLogo} alt="Pelin Kozmetik Logo"></img>
             </div>
             <div className="footer-left-container-p">
               <p>
