@@ -168,5 +168,17 @@ input:focus {
     .contact-form-dom-container{
         margin-top: 80px;
     }
+
+    label{
+        font-size: 18px;
+    }
+
+    input{
+        font-size: 18px;
+    }
+
+    textarea{
+        font-size: 18px;
+    }
 }
 

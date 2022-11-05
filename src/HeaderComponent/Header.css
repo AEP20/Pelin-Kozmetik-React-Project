@@ -65,6 +65,12 @@ a {
   }
 }
 
+@media (max-width: 500px) {
+  .nav-branding {
+    height: 40px;
+  }
+}
+
 @media (max-width: 425px) {
   .nav-branding {
     height: 40px;

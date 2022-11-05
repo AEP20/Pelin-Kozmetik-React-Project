@@ -212,4 +212,8 @@
         justify-content: flex-start;
         align-items: flex-start;
     }
+
+    .send-button-container p{
+        font-size: 18px;
+    }
 }

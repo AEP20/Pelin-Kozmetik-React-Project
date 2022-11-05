@@ -14,9 +14,10 @@
 
 @media (max-width: 940px) {
   .nav-menu {
+    font-size: 16px;
     position: fixed;
     left: -100%;
-    top: 60px;
+    top: 5vh;
     flex-direction: column;
     background-color: rgb(22, 33, 62);
     width: 100%;
@@ -28,4 +29,8 @@
     position: fixed;
     left: 0;
   }
+}
+
+@media only screen and (max-width: 550px) {
+
 }
