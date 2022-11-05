@@ -34,7 +34,7 @@ function Footer() {
           <div className="footer-right-container">
             <div className="logo-text-container">
               <div className="footer-logo-container">
-                <img src={icon1}></img>
+                <img src={icon1} alt="mail"></img>
               </div>
               <div className="footer-text-container">
                 <p>info@pelinkozmetik.com.tr</p>
@@ -43,7 +43,7 @@ function Footer() {
 
             <div className="logo-text-container">
               <div className="footer-logo-container">
-                <img src={icon2}></img>
+                <img src={icon2} alt="phone"></img>
               </div>
               <div className="footer-text-container">
                 <p>+90 216 378 60 22 - 23</p>
@@ -52,7 +52,7 @@ function Footer() {
 
             <div className="logo-text-container">
               <div className="footer-logo-container">
-                <img src={icon3}></img>
+                <img src={icon3} alt="location"></img>
               </div>
               <div className="footer-text-container">
                 <p>

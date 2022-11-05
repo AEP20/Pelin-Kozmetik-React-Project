@@ -21,17 +21,17 @@ function ContactForm() {
                     <div className='contact-form-sub-left-title-container'><h1>İletişim Bilgileri</h1></div>
                     <div className='contact-form-sub-left-main-container'>
                         <div className='contact-form-text-logo-container'>
-                            <div className='contact-form-logo-container'><img src={icon1}></img></div>
+                            <div className='contact-form-logo-container'><img src={icon1} alt="mail"></img></div>
                             <div className='contact-form-text-container'><p>info@pelinkozmetik.com.tr</p></div>
                         </div>
 
                         <div className='contact-form-text-logo-container'>
-                            <div className='contact-form-logo-container'><img src={icon2}></img></div>
+                            <div className='contact-form-logo-container'><img src={icon2} alt="phone"></img></div>
                             <div className='contact-form-text-container'><p>+90 216 378 60 22 - 23</p></div>
                         </div>
 
                         <div className='contact-form-text-logo-container'>
-                            <div className='contact-form-logo-container'><img src={icon3}></img></div>
+                            <div className='contact-form-logo-container'><img src={icon3} alt="location"></img></div>
                             <div className='contact-form-text-container'><p>Sanayi Mah. Akçiçek Sok. No: 4/2 Kurtköy / Pendik - İSTANBUL</p></div>
                         </div>
                     </div>

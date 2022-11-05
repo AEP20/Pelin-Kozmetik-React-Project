@@ -117,7 +117,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src={kozmetik1}></img>
+            <img src={kozmetik1} alt="Cilt Temizliği"></img>
           </div>
         </div>
       </TabPanel>
@@ -135,7 +135,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src={kozmetik2}></img>
+            <img src={kozmetik2} alt="Yüz Bakımı"></img>
           </div>
         </div>
       </TabPanel>
@@ -153,7 +153,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src={kozmetik3}></img>
+            <img src={kozmetik3} alt="Vücut Bakımı"></img>
           </div>
         </div>
       </TabPanel>
@@ -171,7 +171,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src={kozmetik4}></img>
+            <img src={kozmetik4} alt="Kitler"></img>
           </div>
         </div>
       </TabPanel>
@@ -190,7 +190,7 @@ export default function BasicTabs() {
             </ul>
           </div>
           <div className="tabpanel-right-container">
-            <img src={kozmetik5}></img>
+            <img src={kozmetik5} alt="Saç Bakımı"></img>
           </div>
         </div>
       </TabPanel>

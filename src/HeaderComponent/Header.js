@@ -14,7 +14,7 @@ function Header() {
           <header>
             <nav className="navbar">
               <a>
-                <img src={PelinLogo} className="nav-branding"></img>
+                <img src={PelinLogo} alt="Pelin Kozmetik Logo" className="nav-branding"></img>
               </a>
               <Menu btnState={btnState}></Menu>
               <Button setBtnState={setBtnState} btnState={btnState}></Button>

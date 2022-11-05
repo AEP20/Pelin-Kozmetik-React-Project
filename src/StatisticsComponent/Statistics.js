@@ -14,22 +14,22 @@ function Statistics() {
         <div className='statistics-sub-container'>
             <div className='statistics-upper'>
                 <div className='statistic-box'>
-                    <div className='icon-container'><img src={statisticIcon1}></img></div>
+                    <div className='icon-container'><img src={statisticIcon1} alt="+250 Mutlu Müşteri"></img></div>
                     <div className='statistic'><p>+250 Mutlu Müşteri</p></div>
                 </div>
 
                 <div className='statistic-box'>
-                    <div className='icon-container'><img src={statisticIcon2}></img></div>
+                    <div className='icon-container'><img src={statisticIcon2} alt="+150 Proje"></img></div>
                     <div className='statistic'><p>+150 Proje</p></div>
                 </div>
 
                 <div className='statistic-box'>
-                    <div className='icon-container'><img src={statisticIcon3}></img></div>
+                    <div className='icon-container'><img src={statisticIcon3} alt="+25 Profesyonel Çalışma"></img></div>
                     <div className='statistic'><p>+25 Profesyonel Çalışma</p></div>
                 </div>
 
                 <div className='statistic-box'>
-                    <div className='icon-container'><img src={statisticIcon4}></img></div>
+                    <div className='icon-container'><img src={statisticIcon4} alt="30 Senelik Tecrübe"></img></div>
                     <div className='statistic'><p>30 Senelik Tecrübe</p></div>
                 </div>
             </div>
