@@ -7,7 +7,7 @@
 
 .mission-container1 {
   background-color: rgba(29, 31, 34, 0.05);
-  height: 15vh;
+  height: 18vh;
 
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
 
 .mission-container2 {
   background-color: #16213e;
-  height: 15vh;
+  height: 18vh;
 
   display: flex;
   align-items: center;
@@ -154,11 +154,11 @@
   }
 
   .mission-vision1 p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .mission-vision2 p {
-    font-size: 14px;
+    font-size: 12px;
   }
 
   .mission-title-container1 h1 {

@@ -137,4 +137,17 @@
     margin-top: 90px;
 
     }
+
+    .tabpanel-left-container ul li{
+        margin-top: 15px;
+    
+        font-size: 14px;
+        
+    }
+
+    .tabpanel-left-container ul {
+
+        padding-right: 30px;
+    
+    }
 }

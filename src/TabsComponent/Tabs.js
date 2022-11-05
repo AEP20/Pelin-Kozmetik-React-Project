@@ -88,7 +88,8 @@ export default function BasicTabs() {
 
               '@media screen and (max-width: 500px)': {
                 padding:"3px 4px",
-                fontSize:"12px"
+                fontSize:"12px",
+                minWidth:"65px",
               }
             },
             "& .Mui-selected": {
