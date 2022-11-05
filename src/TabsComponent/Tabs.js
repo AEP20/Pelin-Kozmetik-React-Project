@@ -59,8 +59,8 @@ export default function BasicTabs() {
   };
 
   return (
-    <Box sx={{ width: "100%" }} className="tabs-container" id="ürünlerimiz">
-      <Box sx={{}} className="tabs-button-container">
+    <Box sx={{ width: "100%" }} className="tabs-container" >
+      <Box sx={{}} className="tabs-button-container"  id="urunlerimiz">
         <Tabs
           value={value}
           onChange={handleChange}

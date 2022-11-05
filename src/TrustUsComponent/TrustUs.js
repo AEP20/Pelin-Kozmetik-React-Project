@@ -19,7 +19,7 @@ function TrustUs() {
         </div>
       </div>
 
-  <div className='tabs-main-title-container'><h1>Ürünlerimiz</h1></div>
+  <div className='tabs-main-title-container' id="urunlerimiz"><h1>Ürünlerimiz</h1></div>
 
     </div>
   );

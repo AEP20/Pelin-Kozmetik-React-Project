@@ -11,7 +11,7 @@ function Menu({ btnState }) {
         <a href="#hakkimizda">Hakkımızda</a>
       </li>
       <li className="nav-item">
-        <a href="#ürünlerimiz">Ürünlerimiz</a>
+        <a href="#urunlerimiz">Ürünlerimiz</a>
       </li>
       <li className="nav-item">
         <a href="#iletisim">İletişim</a>
