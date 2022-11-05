@@ -25,7 +25,7 @@ a {
 }
 
 .navbar {
-  min-height: 60px;
+  min-height: 5vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,7 +39,7 @@ a {
 }
 
 .nav-branding {
-  height: 50px;
+  height: 3vw;
   display: flex;
   filter: brightness(0) invert(1);
   margin-left: 16px;

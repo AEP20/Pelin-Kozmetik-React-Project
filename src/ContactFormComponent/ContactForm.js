@@ -56,7 +56,7 @@ function ContactForm() {
                         <div className='sub2-thema-answer-container'><input type="text" id="konu" name="konu" placeholder="Konu" required maxLength="200"/></div>
                 </div>
                 <div className='contact-form-right-sub-container3'>
-                        <div className='sub3-feedback-container'><p>Mesajınız</p></div>
+                        <div className='sub3-feedback-container'><label>Mesajınız</label></div>
                         <div className='sub3-feedback-answer-container'><textarea id="message" name="message" placeholder="Mesajınız" required maxLength="1500"></textarea></div>
                 </div>
                 <div className='contact-form-right-sub-container4'>

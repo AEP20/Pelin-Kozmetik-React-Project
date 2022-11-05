@@ -82,7 +82,7 @@ export default function BasicTabs() {
               opacity: "1",
               textTransform: "none",
               transition: "ease-in-out 0.3s",
-              fontSize:"14px",
+              fontSize:"1.7vmin",
 
               '@media screen and (max-width: 500px)': {
                 padding:"3px 4px",

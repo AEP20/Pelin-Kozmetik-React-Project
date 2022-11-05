@@ -35,7 +35,7 @@
     font-family: elza-narrow, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 18px;
+    font-size: 2vmin;
     color: white;
 }
 
@@ -102,7 +102,7 @@
     font-weight: 500;
     font-style: normal;
     color: white;
-    font-size: 16px;
+    font-size: 2vmin;
 }
 
 .rights-container{
@@ -126,6 +126,7 @@
     font-style: normal;
     color: rgba(255, 255, 255, 1);
     margin-left: 80px;
+    font-size: 2vmin;
 }
 
 

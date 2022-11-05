@@ -7,7 +7,7 @@
 
 .mission-container1 {
   background-color: rgba(29, 31, 34, 0.05);
-  height: 13vh;
+  height: 15vh;
 
   display: flex;
   align-items: center;
@@ -18,7 +18,7 @@
 
 .mission-container2 {
   background-color: #16213e;
-  height: 13vh;
+  height: 15vh;
 
   display: flex;
   align-items: center;
@@ -52,7 +52,7 @@
   font-family: elza-narrow, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 50px;
+  font-size: 4vw;
   color: #16213e;
 }
 
@@ -60,7 +60,7 @@
   font-family: elza-narrow, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 50px;
+  font-size: 4vw;
   color: white;
 }
 
@@ -88,6 +88,7 @@
   font-weight: 500;
   font-style: normal;
   color: #16213e;
+  font-size: 2.2vmin;
 }
 
 .mission-vision2 p {
@@ -95,13 +96,11 @@
   font-weight: 500;
   font-style: normal;
   color: white;
+  font-size: 2.2vmin;
+
 }
 
-.mission-vision h1 {
-  font-family: elza-narrow, sans-serif;
-  font-weight: 600;
-  font-style: normal;
-}
+
 
 @media only screen and (max-width: 700px) {
   .mission-title-container1 {

@@ -23,7 +23,8 @@
   font-family: elza-narrow, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 100px;
+  font-size: 8vw;
+
 }
 
 .about-us-sub-container {
@@ -45,7 +46,7 @@
   font-family: elza-narrow, sans-serif;
   font-weight: 600;
   font-style: normal;
-  font-size: 18px;
+  font-size: 2.2vmin;
   color: #d2001a;
   text-align: center;
 }
@@ -55,13 +56,13 @@
   width: 100%;
 }
 .about-us-info-container .info:nth-child(odd) {
-  height: 100px;
+  height: 10vh;
   width: 100%;
   background-color: rgba(29, 31, 34, 0.15);
 }
 
 .about-us-info-container .info:nth-child(even) {
-  height: 100px;
+  height: 10vh;
   width: 100%;
   background-color: rgba(29, 31, 34, 0.05);
 }
@@ -78,7 +79,7 @@
   font-family: elza-narrow, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 18px;
+  font-size: 2.2vmin;
 }
 
 @media only screen and (max-width: 950px) {

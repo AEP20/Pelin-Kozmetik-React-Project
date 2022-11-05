@@ -28,7 +28,7 @@
     font-family: elza-narrow, sans-serif;
     font-weight: 500;
     font-style: normal;
-    font-size: 80px;
+    font-size: 6.5vw;
     color: rgba(29, 31, 41,0.75);
     margin-bottom: 150px;
 }
@@ -46,7 +46,7 @@
     font-family: elza-narrow, sans-serif;
     font-weight: 600;
     font-style: normal;
-    font-size: 18px;
+    font-size: 2.2vmin;
     color: #D2001A;
     margin-bottom: 20px;
 }
@@ -67,7 +67,7 @@ label{
     font-weight: 500;
     font-style: normal;
     color: rgba(29, 31, 41,0.75);
-    font-size: 22px;
+    font-size: 3vmin;
 }
 
 input {
@@ -82,7 +82,7 @@ input {
     font-weight: 500;
     font-style: normal;
     color: rgba(29, 31, 41,0.75);
-    font-size: 18px;
+    font-size: 3vmin;
 
     outline-color: rgba(29, 31, 41,0.75);
 }
@@ -99,7 +99,7 @@ textarea{
     font-weight: 500;
     font-style: normal;
     color: rgba(29, 31, 41,0.75);
-    font-size: 18px;
+    font-size: 3vmin;
 
     outline-color: rgba(29, 31, 41,1);
     resize: none;

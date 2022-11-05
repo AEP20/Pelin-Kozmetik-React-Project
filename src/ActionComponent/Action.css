@@ -28,7 +28,7 @@
 }
 
 .title-container h1{
-    font-size: 80px;
+    font-size: 6vw;
     margin: 10px 0 0 0;
     color: white;
     font-family: elza-narrow, sans-serif;
@@ -54,7 +54,7 @@
 .title-description p {
 
     color: white;
-    font-size: 16px;
+    font-size: 2.2vmin;
     font-family: elza-narrow, sans-serif;
     font-weight: 400;
     font-style: normal;
@@ -62,7 +62,6 @@
     
     text-align: center;
     vertical-align: middle;
-    line-height:24px;
 
     text-shadow: 0px 3px 5px rgba(0, 0, 0, 0.7);
 
@@ -103,7 +102,7 @@
 
 .button1 p{
     color:rgba(29, 31, 34);
-    font-size: 18px;
+    font-size: 2.2vmin;
     font-family: elza-narrow, sans-serif;
     font-style: normal;
     font-weight: 500;
