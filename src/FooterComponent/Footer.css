@@ -32,9 +32,9 @@
 }
 
 .footer-left-container-p p{
-    font-family: elza-narrow, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-style: normal;
     font-size: 2vmin;
     color: white;
 }
@@ -98,9 +98,9 @@
 }
 
 .footer-text-container p{
-    font-family: elza-narrow, sans-serif;
-    font-weight: 500;
-    font-style: normal;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-style: normal;
     color: white;
     font-size: 2vmin;
 }
@@ -121,9 +121,9 @@
 }
 
 .rights-container p{
-    font-family: elza-narrow, sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: lato, sans-serif;
+  font-weight: 400;
+  font-style: normal;
     color: rgba(255, 255, 255, 1);
     margin-left: 80px;
     font-size: 2vmin;
@@ -135,13 +135,13 @@
   .footer-bottom-container {
     height: 80%;
     flex-direction: column;
+    
   }
 
   .footer-left-container {
     height: 50%;
     width: 90%;
     margin-left: 16px;
-    padding-top: 32px;
     justify-content: flex-start;
     align-items: flex-start;
   }

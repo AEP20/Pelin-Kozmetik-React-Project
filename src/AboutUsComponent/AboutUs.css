@@ -112,11 +112,19 @@
 
   .info p {
 
-    font-size: 13px;
+    font-size: 12px;
     text-align: left;
   }
 
   .about-us-sub-title-container h1 {
     font-size: 12px;
+  }
+
+  .about-us-info-container .info:nth-child(odd) {
+    height: 13vh;
+  }
+  
+  .about-us-info-container .info:nth-child(even) {
+    height: 13vh;
   }
 }
