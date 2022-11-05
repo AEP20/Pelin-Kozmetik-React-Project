@@ -1,5 +1,6 @@
 @import url("https://use.typekit.net/sfb7vbl.css");
 @import url("https://use.typekit.net/sfb7vbl.css");
+@import url("https://use.typekit.net/sfb7vbl.css");
 
 .about-us-container {
   display: flex;
@@ -76,10 +77,10 @@
 }
 
 .info p {
-  font-family: elza-narrow, sans-serif;
+  font-size: 2.2vmin;
+  font-family: lato, sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 2.2vmin;
 }
 
 @media only screen and (max-width: 950px) {
