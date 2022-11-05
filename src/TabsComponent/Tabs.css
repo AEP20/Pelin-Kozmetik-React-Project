@@ -150,4 +150,16 @@
         padding-right: 30px;
     
     }
+
+    .tabpanel-right-container img{
+        height: 55%;
+        margin-top: 20px;
+    }
+
+    .tabpanel-right-container{
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0px;
+        padding-left: 20px;
+    }
 }

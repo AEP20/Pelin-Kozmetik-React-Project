@@ -82,7 +82,7 @@ input {
   font-weight: 500;
   font-style: normal;
     color: rgba(29, 31, 41,0.75);
-    font-size: 2.5vmin;
+    font-size: 2vmin;
 
     outline-color: rgba(29, 31, 41,0.75);
 }
@@ -99,7 +99,7 @@ textarea{
   font-weight: 500;
   font-style: normal;
     color: rgba(29, 31, 41,0.75);
-    font-size: 2.5vmin;
+    font-size: 2vmin;
 
     outline-color: rgba(29, 31, 41,1);
     resize: none;
