@@ -60,7 +60,7 @@ export default function BasicTabs() {
 
   return (
     <Box sx={{ width: "100%" }} className="tabs-container" >
-      <Box sx={{}} className="tabs-button-container"  id="urunlerimiz">
+      <Box sx={{}} className="tabs-button-container">
         <Tabs
           value={value}
           onChange={handleChange}
@@ -74,7 +74,7 @@ export default function BasicTabs() {
               borderRadius: "50px",
 
               '@media screen and (max-width: 500px)': {
-                borderRadius:"25px",
+                borderRadius:"20px",
               }
             },
             "& .MuiTab-root": {
@@ -85,12 +85,13 @@ export default function BasicTabs() {
               transition: "ease-in-out 0.3s",
               fontSize:"1.7vmin",
               fontFamily:"lato,sans-serif",
-              fontWeight:"500",
+              fontWeight:"600",
+              color:"rgba(29, 31, 34, 1);",
 
               '@media screen and (max-width: 500px)': {
                 padding:"3px 4px",
                 fontSize:"12px",
-                minWidth:"65px",
+                minWidth:"60px",
               }
             },
             "& .Mui-selected": {
