@@ -1,25 +1,39 @@
 {
   "files": {
     "main.css": "/Pelin-Kozmetik-React-Project/static/css/main.23898b7c.chunk.css",
-    "main.js": "/Pelin-Kozmetik-React-Project/static/js/main.bb31c9a9.chunk.js",
-    "main.js.map": "/Pelin-Kozmetik-React-Project/static/js/main.bb31c9a9.chunk.js.map",
+    "main.js": "/Pelin-Kozmetik-React-Project/static/js/main.89458f4b.chunk.js",
+    "main.js.map": "/Pelin-Kozmetik-React-Project/static/js/main.89458f4b.chunk.js.map",
     "runtime-main.js": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js",
     "runtime-main.js.map": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js.map",
     "static/css/2.a1596f27.chunk.css": "/Pelin-Kozmetik-React-Project/static/css/2.a1596f27.chunk.css",
-    "static/js/2.d1400a9e.chunk.js": "/Pelin-Kozmetik-React-Project/static/js/2.d1400a9e.chunk.js",
-    "static/js/2.d1400a9e.chunk.js.map": "/Pelin-Kozmetik-React-Project/static/js/2.d1400a9e.chunk.js.map",
+    "static/js/2.e63e13fa.chunk.js": "/Pelin-Kozmetik-React-Project/static/js/2.e63e13fa.chunk.js",
+    "static/js/2.e63e13fa.chunk.js.map": "/Pelin-Kozmetik-React-Project/static/js/2.e63e13fa.chunk.js.map",
     "index.html": "/Pelin-Kozmetik-React-Project/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/2.a1596f27.chunk.css.map",
     "static/css/main.23898b7c.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/main.23898b7c.chunk.css.map",
-    "static/js/2.d1400a9e.chunk.js.LICENSE.txt": "/Pelin-Kozmetik-React-Project/static/js/2.d1400a9e.chunk.js.LICENSE.txt",
+    "static/js/2.e63e13fa.chunk.js.LICENSE.txt": "/Pelin-Kozmetik-React-Project/static/js/2.e63e13fa.chunk.js.LICENSE.txt",
     "static/media/BackgroundVideo.b78693fc.mp4": "/Pelin-Kozmetik-React-Project/static/media/BackgroundVideo.b78693fc.mp4",
-    "static/media/statistic-icon1.507d7ce9.svg": "/Pelin-Kozmetik-React-Project/static/media/statistic-icon1.507d7ce9.svg"
+    "static/media/Kozmetik1.02847d52.svg": "/Pelin-Kozmetik-React-Project/static/media/Kozmetik1.02847d52.svg",
+    "static/media/Kozmetik2.bf23b58b.svg": "/Pelin-Kozmetik-React-Project/static/media/Kozmetik2.bf23b58b.svg",
+    "static/media/Kozmetik3.5e728cf3.svg": "/Pelin-Kozmetik-React-Project/static/media/Kozmetik3.5e728cf3.svg",
+    "static/media/Kozmetik4.d2233e5c.svg": "/Pelin-Kozmetik-React-Project/static/media/Kozmetik4.d2233e5c.svg",
+    "static/media/Kozmetik5.b657453b.svg": "/Pelin-Kozmetik-React-Project/static/media/Kozmetik5.b657453b.svg",
+    "static/media/PelinLogo.eb688bde.svg": "/Pelin-Kozmetik-React-Project/static/media/PelinLogo.eb688bde.svg",
+    "static/media/gmp.febfce80.png": "/Pelin-Kozmetik-React-Project/static/media/gmp.febfce80.png",
+    "static/media/iso.187a62f9.svg": "/Pelin-Kozmetik-React-Project/static/media/iso.187a62f9.svg",
+    "static/media/location.514be247.svg": "/Pelin-Kozmetik-React-Project/static/media/location.514be247.svg",
+    "static/media/mail.80b4b2e0.svg": "/Pelin-Kozmetik-React-Project/static/media/mail.80b4b2e0.svg",
+    "static/media/phone.9217c6de.svg": "/Pelin-Kozmetik-React-Project/static/media/phone.9217c6de.svg",
+    "static/media/statistic-icon1.507d7ce9.svg": "/Pelin-Kozmetik-React-Project/static/media/statistic-icon1.507d7ce9.svg",
+    "static/media/statistic-icon2.70684509.svg": "/Pelin-Kozmetik-React-Project/static/media/statistic-icon2.70684509.svg",
+    "static/media/statistic-icon3.b67db239.svg": "/Pelin-Kozmetik-React-Project/static/media/statistic-icon3.b67db239.svg",
+    "static/media/statistic-icon4.8e4ef36a.svg": "/Pelin-Kozmetik-React-Project/static/media/statistic-icon4.8e4ef36a.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.4e61ed67.js",
     "static/css/2.a1596f27.chunk.css",
-    "static/js/2.d1400a9e.chunk.js",
+    "static/js/2.e63e13fa.chunk.js",
     "static/css/main.23898b7c.chunk.css",
-    "static/js/main.bb31c9a9.chunk.js"
+    "static/js/main.89458f4b.chunk.js"
   ]
 }
