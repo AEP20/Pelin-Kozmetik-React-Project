@@ -6,7 +6,6 @@
 
 html {
   font-family: 'Noto Sans JP', sans-serif;
-  box-sizing: border-box;
   height: 100%;
 }
 
@@ -27,4 +26,9 @@ body {
   font-family: elza;
   src: url("https://use.typekit.net/sfb7vbl.css");
   font-display: swap;
+}
+
+::selection {
+  background: rgba(210, 0, 26,1);
+  color: white;
 }
