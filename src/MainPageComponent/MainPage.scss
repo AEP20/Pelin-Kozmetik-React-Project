@@ -38,11 +38,11 @@ body {
 main {
   background: white;
   position: relative;
-  margin-top: 100vh; /* KRİTİK*/
+  margin-top: 94vh; /* KRİTİK*/
   &::before {
     content: "";
     @include coverer;
-    top: -100vh;
+    top: -94vh;
   }
   
 }

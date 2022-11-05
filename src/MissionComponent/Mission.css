@@ -154,11 +154,11 @@
   }
 
   .mission-vision1 p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .mission-vision2 p {
-    font-size: 12px;
+    font-size: 14px;
   }
 
   .mission-title-container1 h1 {
@@ -182,6 +182,16 @@
     .mission-container {
 
         margin-top: 90px;
+      }
+
+      .mission-container1 {
+        height: 23vh;
+      
+      }
+      
+      .mission-container2 {
+        height: 23vh;
+      
       }
 
 }
