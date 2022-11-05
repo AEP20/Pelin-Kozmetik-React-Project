@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+@import url("https://use.typekit.net/sfb7vbl.css");
 
 * {
   box-sizing: border-box;
@@ -15,7 +15,16 @@ body {
   padding: 0;
 }
 
-h1 p label textarea input{
+@font-face {
+
+  font-family: Lato;
+  src: url("https://use.typekit.net/sfb7vbl.css");
   font-display: swap;
 }
 
+@font-face {
+
+  font-family: elza;
+  src: url("https://use.typekit.net/sfb7vbl.css");
+  font-display: swap;
+}
