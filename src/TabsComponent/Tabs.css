@@ -137,10 +137,6 @@
 
 @media only screen and (max-width: 500px) {
 
-    .tabs-container{
-    margin-top: 90px;
-
-    }
 
     .tabpanel-left-container ul li{
         margin-top: 15px;
@@ -165,5 +161,20 @@
         align-items: center;
         padding-bottom: 0px;
         padding-left: 20px;
+    }
+
+    .tabs-button-container{
+        width: 90%;
+        border-radius: 20px;
+        margin-bottom: 0px;
+        min-width: 90vw;
+    }
+
+
+    .tabs-button-sub-container{
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        min-height: auto;
     }
 }

@@ -75,6 +75,7 @@ export default function BasicTabs() {
 
               '@media screen and (max-width: 500px)': {
                 borderRadius:"20px",
+                height:"100%"
               }
             },
             "& .MuiTab-root": {
@@ -89,9 +90,9 @@ export default function BasicTabs() {
               color:"rgba(29, 31, 34, 1);",
 
               '@media screen and (max-width: 500px)': {
-                padding:"3px 4px",
+                padding:"0px 7px",
                 fontSize:"12px",
-                minWidth:"60px",
+                minWidth:"10px",
               }
             },
             "& .Mui-selected": {

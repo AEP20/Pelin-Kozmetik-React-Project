@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Pelin-Kozmetik-React-Project/static/css/main.5e5f2e17.chunk.css",
+    "main.css": "/Pelin-Kozmetik-React-Project/static/css/main.1db05465.chunk.css",
     "main.js": "/Pelin-Kozmetik-React-Project/static/js/main.62c8b142.chunk.js",
     "main.js.map": "/Pelin-Kozmetik-React-Project/static/js/main.62c8b142.chunk.js.map",
     "runtime-main.js": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js",
@@ -10,9 +10,9 @@
     "static/js/2.a503f121.chunk.js.map": "/Pelin-Kozmetik-React-Project/static/js/2.a503f121.chunk.js.map",
     "index.html": "/Pelin-Kozmetik-React-Project/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.5e5f2e17.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/main.5e5f2e17.chunk.css.map",
+    "static/css/main.1db05465.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/main.1db05465.chunk.css.map",
     "static/js/2.a503f121.chunk.js.LICENSE.txt": "/Pelin-Kozmetik-React-Project/static/js/2.a503f121.chunk.js.LICENSE.txt",
-    "static/media/MainPage.scss": "/Pelin-Kozmetik-React-Project/static/media/BackgroundImage.ac678964.png",
+    "static/media/MainPage.scss": "/Pelin-Kozmetik-React-Project/static/media/BackgroundImage.226f6ba1.webp",
     "static/media/BackgroundVideo.b78693fc.mp4": "/Pelin-Kozmetik-React-Project/static/media/BackgroundVideo.b78693fc.mp4",
     "static/media/Kozmetik1.02847d52.svg": "/Pelin-Kozmetik-React-Project/static/media/Kozmetik1.02847d52.svg",
     "static/media/Kozmetik2.bf23b58b.svg": "/Pelin-Kozmetik-React-Project/static/media/Kozmetik2.bf23b58b.svg",
@@ -34,7 +34,7 @@
     "static/js/runtime-main.4e61ed67.js",
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.a503f121.chunk.js",
-    "static/css/main.5e5f2e17.chunk.css",
+    "static/css/main.1db05465.chunk.css",
     "static/js/main.62c8b142.chunk.js"
   ]
 }
