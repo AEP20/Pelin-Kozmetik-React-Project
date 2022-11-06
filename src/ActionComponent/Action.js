@@ -17,9 +17,9 @@ function Action() {
               </div>
 
               <div className="title-button-container">
-                <div className="button1">
-                  <p>Şimdi Başla </p>
-                </div>
+                <a href="#iletisim" className="button1">
+                  <p>Şimdi Başla</p>
+                </a>
               </div>
     </div>
   )
