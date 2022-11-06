@@ -14,19 +14,7 @@ body {
   padding: 0;
 }
 
-@font-face {
 
-  font-family: Lato;
-  src: url("https://use.typekit.net/sfb7vbl.css");
-  font-display: swap;
-}
-
-@font-face {
-
-  font-family: elza;
-  src: url("https://use.typekit.net/sfb7vbl.css");
-  font-display: swap;
-}
 
 ::selection {
   background: rgba(210, 0, 26,1);

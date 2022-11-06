@@ -1,6 +1,5 @@
 import React from 'react'
 import "./AboutUs.css";
-import { AnimationOnScroll } from 'react-animation-on-scroll';
 import 'animate.css';
 
 function AboutUs() {

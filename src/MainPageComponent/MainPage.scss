@@ -46,3 +46,18 @@ main {
   }
   
 }
+
+
+@media only screen and (max-width: 500px) {
+  .video-tag{
+    display: none;
+  }
+
+  .video-header{
+    background-image: url("./BackgroundImage.png");
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+  }
+
+}
