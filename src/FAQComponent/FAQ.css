@@ -172,17 +172,14 @@
     .faq-upper2-container{
         justify-content: center;
         width: auto;
-
     }
     .faq-bottom1-container{
         justify-content: center;
         width: auto;
-
     }
     .faq-bottom2-container{
         justify-content: center;
         width: auto;
-        
     }
 }
 
@@ -216,17 +213,34 @@
 
     .faq-question h1{
         font-size: 16px;
-        padding: 10px;
+        padding: 5px;
     }
 
     .faq{
-        width: 47%;
-        margin: 5px;
+        width: 100%;
+        margin: 0;
+        margin-top: 5px;
+        margin-bottom: 5px;
     }
 
     .faq-answer p{
-    padding: 5px 5px 5px 5px;
+    padding: 0px 0px 0px 0px;
     font-size: 16px;
+    }
+
+
+
+    .faq-upper1-container{
+        flex-direction: column;
+    }
+    .faq-upper2-container{
+        flex-direction: column;
+    }
+    .faq-bottom1-container{
+        flex-direction: column;
+    }
+    .faq-bottom2-container{
+        flex-direction: column; 
     }
 }
 
