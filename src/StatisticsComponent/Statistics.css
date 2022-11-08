@@ -101,17 +101,45 @@
 }
 
 @media only screen and (max-width: 500px) {
+
+    .statistics-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: auto;
+        margin-top: 180px;
+
+    }
+
+    .statistics-upper{
+        height: 100%;
+        width: 100%;
+    
+        flex-direction: column;
+
+        padding: 20px 0 0 0;
+
+    }
+
+    .statistic-box {
+        height: 100%;
+        width: 100%;
+    
+    }
+
     .icon-container img{
-        width: 80%;
+        width: 17%;
         height: 60%;
+        margin-bottom: 20px;
     }
 
     .statistic{
-        margin-bottom: 20px;
+        margin-bottom: 30px;
     }
     
     .statistic p{
-        font-size: 13px;
+        font-size: 16px;
     }
 
     .icon-container{
