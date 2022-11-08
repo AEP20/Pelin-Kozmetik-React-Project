@@ -38,11 +38,11 @@ body {
 main {
   background: white;
   position: relative;
-  margin-top: 93vh; /* KRİTİK*/
+  margin-top: 91vh; /* KRİTİK*/
   &::before {
     content: "";
     @include coverer;
-    top: -93vh;
+    top: -91vh;
   }
   
 }
@@ -54,10 +54,7 @@ main {
   }
 
   .video-header{
-    background-image: url("./BackgroundImage.webp");
-    background-position: center;
-    background-size:cover;
-    background-repeat: no-repeat;
+    background-color: rgb(22, 33, 62);
   }
 
 }
