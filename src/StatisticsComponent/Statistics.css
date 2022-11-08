@@ -103,6 +103,7 @@
 @media only screen and (max-width: 500px) {
     .icon-container img{
         width: 80%;
+        height: 60%;
     }
 
     .statistic{

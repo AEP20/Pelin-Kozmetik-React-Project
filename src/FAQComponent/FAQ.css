@@ -199,7 +199,7 @@
     
     .faq-title-container h1{
         font-size: 40px;
-        margin-bottom: 50px;
+        margin-bottom: 10px;
     }
 
     .faq-sub-title-container h1{
@@ -221,6 +221,7 @@
         margin: 0;
         margin-top: 5px;
         margin-bottom: 5px;
+        border-radius: 0px;
     }
 
     .faq-answer p{
@@ -241,6 +242,10 @@
     }
     .faq-bottom2-container{
         flex-direction: column; 
+    }
+
+    .faq-sub-container{
+        padding: 10px 0 10px 0;
     }
 }
 

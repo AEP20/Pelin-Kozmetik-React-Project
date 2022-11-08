@@ -140,14 +140,13 @@
 
     .tabpanel-left-container ul li{
         margin-top: 15px;
-    
         font-size: 14px;
         
     }
 
     .tabpanel-left-container ul {
 
-        padding-right: 30px;
+        padding-right: 15px;
     
     }
 
@@ -160,7 +159,7 @@
         justify-content: center;
         align-items: center;
         padding-bottom: 0px;
-        padding-left: 20px;
+        padding-left: 0px;
     }
 
     .tabs-button-container{
