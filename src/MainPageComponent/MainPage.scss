@@ -11,7 +11,7 @@
   z-index: -999;
   text-align: center;
   width: 100vw;
-  height: 10vh;
+  height: 100vh;
   &, video, .viewport-header {
     @include coverer;
   }
@@ -38,11 +38,11 @@ body {
 main {
   background: white;
   position: relative;
-  margin-top: 10vh; /* KRİTİK*/
+  margin-top: 91vh; /* KRİTİK*/
   &::before {
     content: "";
     @include coverer;
-    top: -10vh;
+    top: -91vh;
   }
   
 }
@@ -54,7 +54,7 @@ main {
   }
 
   .video-header{
-    background-color: rgb(22, 33, 62);
+    background-color: rgb(22, 23, 72);
   }
 
 }
