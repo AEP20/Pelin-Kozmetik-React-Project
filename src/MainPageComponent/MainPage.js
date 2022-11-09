@@ -21,7 +21,9 @@ function MainPage() {
           <source src={clip} type="video/mp4" />
         </video>
         <div class="viewport-header">
-          
+          <div className="upper-main-container">
+            <div className="upper-sub-container"></div>
+          </div>
 
           
         </div>

@@ -8,7 +8,7 @@
 }
 
 .upper-main-container{
-    height: 80%;
+    height: 100%;
     width: 100%;
 
     display: flex;
@@ -17,8 +17,7 @@
     flex-direction: column;
 
 
-    background-color: rgba(0, 0, 0, 0.35);
-    display: none;
+    background-color: rgba(0, 0, 0, 0.25);
 
 
 
@@ -27,7 +26,6 @@
 .upper-sub-container{
     height: 65%;
     width: 40%;
-    margin-top: 100px;
     display: flex;
     flex-direction: column;
 }
@@ -45,3 +43,10 @@
 }
 
 
+
+
+@media only screen and (max-width: 500px) {
+    .upper-main-container{
+        height: 100%;
+    }
+  }

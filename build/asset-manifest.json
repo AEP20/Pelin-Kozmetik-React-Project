@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/Pelin-Kozmetik-React-Project/static/css/main.dc6fa525.chunk.css",
-    "main.js": "/Pelin-Kozmetik-React-Project/static/js/main.f4c47dd0.chunk.js",
-    "main.js.map": "/Pelin-Kozmetik-React-Project/static/js/main.f4c47dd0.chunk.js.map",
+    "main.js": "/Pelin-Kozmetik-React-Project/static/js/main.b4646304.chunk.js",
+    "main.js.map": "/Pelin-Kozmetik-React-Project/static/js/main.b4646304.chunk.js.map",
     "runtime-main.js": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js",
     "runtime-main.js.map": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js.map",
     "static/css/2.a1596f27.chunk.css": "/Pelin-Kozmetik-React-Project/static/css/2.a1596f27.chunk.css",
@@ -34,6 +34,6 @@
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.a503f121.chunk.js",
     "static/css/main.dc6fa525.chunk.css",
-    "static/js/main.f4c47dd0.chunk.js"
+    "static/js/main.b4646304.chunk.js"
   ]
 }
