@@ -25,13 +25,7 @@ function MainPage() {
             <div className="upper-sub-container"></div>
           </div>
 
-          <div className="bottom-main-container">
-            <div className="bottom-award-container">
-              <div className="award-sub-container1">
-                
-              </div>
-            </div>
-          </div>
+          
         </div>
       </header>
 

@@ -77,14 +77,12 @@
   
     align-items: center;
     flex-direction: column;
-    display: none;
   }
 
   .award-sub-container1{
     height: 100%;
     width: 100%;
     justify-content: center;
-    display: none;
 
   }
   
@@ -92,13 +90,11 @@
     height: 100%;
     width: 100%;
     justify-content: center;
-    display: none;
 
   
   }
   .bottom-main-container{
     align-items: center;
-    display: none;
 
   }
 
