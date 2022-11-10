@@ -112,7 +112,6 @@
 
     .trust-us-container{
         height: 30vh;
-        width: 90%;
     }
 
     .trust-us-p-container h1{
@@ -141,5 +140,27 @@
         margin-bottom: -150px;
     }
 
+    .iso-container img{
+        display: none;
+    
+    }
+
+    .gmp-container img{
+        display: none;
+    }
+
+    .iso-container{
+        width: 0;
+    }
+
+    .gmp-container{
+        width: 0;
+    }
+
+    .trust-us-p-container {
+
+        width: 100%;
+    
+    }
 
 }
