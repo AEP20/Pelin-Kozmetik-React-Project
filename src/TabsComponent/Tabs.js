@@ -73,7 +73,7 @@ export default function BasicTabs() {
               height: "100%",
               borderRadius: "50px",
 
-              '@media screen and (max-width: 500px)': {
+              '@media screen and (max-width: 600px)': {
                 borderRadius:"20px",
                 height:"100%"
               }
@@ -89,7 +89,7 @@ export default function BasicTabs() {
               fontWeight:"600",
               color:"rgba(29, 31, 34, 1);",
 
-              '@media screen and (max-width: 500px)': {
+              '@media screen and (max-width: 600px)': {
                 padding:"0px 7px",
                 fontSize:"12px",
                 minWidth:"10px",

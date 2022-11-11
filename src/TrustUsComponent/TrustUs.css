@@ -5,6 +5,7 @@
     margin-top: 90px;
 
     flex-direction: column;
+    height: 70vh;
 }
 
 .trust-us-container{
@@ -97,34 +98,7 @@
     margin-bottom: 60px;
 }
 
-@media only screen and (max-width: 500px) {
-    .trust-us-dom-container{
-        margin-top: 15vh;
-        margin-bottom: 10vh;
-    }
-    
-    .trust-us-p-container p{
 
-        padding: 0 10px 0 10px;
-        font-size: 16px;
-    
-    }
-
-    .trust-us-container{
-        height: 30vh;
-    }
-
-    .trust-us-p-container h1{
-        font-size: 16px;
-    }
-
-    .tabs-main-title-container{
-        height: 15vh;
-        width: 100%;
-        margin-top: 30px;
-    }
-    
-}
 
 @media only screen and (max-width: 800px) {
     .tabs-main-title-container h1{
@@ -132,9 +106,20 @@
         margin-bottom: -50px;
 
     }
+
+    .trust-us-container{
+        height: 30vh;
+
+    
+    }
+
+    .trust-us-dom-container{
+        height: 30vh;
+    }
 }
 
-@media only screen and (max-width: 500px) {
+
+@media only screen and (max-width: 600px) {
     .tabs-main-title-container h1{
         font-size: 40px;
         margin-bottom: -150px;
@@ -163,4 +148,33 @@
     
     }
 
+    .trust-us-dom-container{
+        margin-top: 15vh;
+        margin-bottom: 10vh;
+        height: 25vh;
+
+    }
+    
+    .trust-us-p-container p{
+
+        padding: 0 10px 0 10px;
+        font-size: 16px;
+    
+    }
+
+    .trust-us-container{
+        height: 25vh;
+    }
+
+    .trust-us-p-container h1{
+        font-size: 16px;
+    }
+
+    .tabs-main-title-container{
+        height: 15vh;
+        width: 100%;
+        margin-top: 30px;
+    }
+
 }
+
