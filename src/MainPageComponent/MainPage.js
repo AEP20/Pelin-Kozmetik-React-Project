@@ -12,8 +12,15 @@ import Footer from "../FooterComponent/Footer";
 import ContactForm from "../ContactFormComponent/ContactForm";
 import BasicTabs from "../TabsComponent/Tabs";
 import Action from "../ActionComponent/Action";
+import ReactGA from "react-ga";
+
+function initialGA(){
+  ReactGA.initialize('G-L4XV6MY7D6');
+  React.pageview('https://aep20.github.io/Pelin-Kozmetik-React-Project');
+}
 
 function MainPage() {
+  initialGA();
   return (
     <div>
 
