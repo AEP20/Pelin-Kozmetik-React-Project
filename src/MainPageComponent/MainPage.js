@@ -16,7 +16,7 @@ import ReactGA from "react-ga";
 
 function initialGA(){
   ReactGA.initialize('G-L4XV6MY7D6');
-  React.pageview('https://aep20.github.io/Pelin-Kozmetik-React-Project');
+  ReactGA.pageview('https://aep20.github.io/Pelin-Kozmetik-React-Project');
 }
 
 function MainPage() {
