@@ -12,8 +12,8 @@
 }
 
 .statistics-title-container h1{
-    font-family: elza-narrow, sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
     font-style: normal;
     font-size: 2.2vmin;
     color: #D2001A;
@@ -64,7 +64,7 @@
 
 .icon-container img{
     height: 70%;
-    filter: brightness(0) invert(1);
+    filter: brightness(0) invert(0.9);
 }
 
 .statistic{
@@ -79,11 +79,11 @@
 }
 
 .statistic p{
-    font-family: interstate,sans-serif;
+    font-family: "Roboto Slab", serif;
     font-weight: 500;
     font-style: normal;
     font-size: 2.2vmin;
-    color: white;
+    color: #fcfcfc;
 }
 
 

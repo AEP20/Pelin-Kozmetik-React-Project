@@ -1,0 +1,169 @@
+.cta-upper-sub-container {
+  height: 80%;
+  width: 50%;
+}
+
+.cta-h1-text-container {
+  height: 40%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.cta-h1-text-container h1 {
+  font-family: "Roboto Slab", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 5.5vw;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 3px 5px rgb(0 0 0 / 70%);
+}
+
+.cta-p-text-container {
+  height: 15%;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+
+  padding: 0rem 4rem 0rem 4rem;
+}
+
+.cta-p-text-container p {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.1vmin;
+  color: rgba(255, 255, 255, 0.9);
+  text-shadow: 0 3px 5px rgb(0 0 0 / 70%);
+}
+
+.cat-button {
+  height: 15%;
+  width: 100%;
+
+  margin-top: 60px;
+  position: relative;
+}
+
+.cat-button button {
+  height: 60%;
+  width: 30%;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.cat-button button:hover {
+  cursor: pointer;
+}
+
+.cat-button p {
+  font-family: "Roboto Slab", serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 2.5vmin;
+  color: rgba(29, 31, 41, 1);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .cat-button {
+    margin-top: 30px;
+  }
+
+  .cat-button button {
+    height: 70%;
+    min-width: 250px;
+  }
+
+  .cta-p-text-container {
+    height: 20%;
+    padding: 0rem 0rem 0rem 0rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cta-p-text-container p {
+    font-size: 2.5vmin;
+  }
+
+  .cta-h1-text-container h1 {
+    font-size: 8vw;
+  }
+
+  .cta-upper-sub-container {
+    width: 60%;
+  }
+
+  .cta-h1-text-container {
+    height: 35%;
+    justify-content: flex-end;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .cta-h1-text-container {
+    align-items: flex-start;
+    display: flex;
+    justify-content: center;
+}
+
+.cta-h1-text-container h1 {
+    font-size: 48px;
+    text-align: left;
+    text-shadow: none;
+    color: rgba(29, 31, 41,0.9);
+    font-weight: 500;
+
+  }
+
+.cta-p-text-container {
+    text-align: left;
+    align-items: center;
+    height: 25%;
+    margin-top: 10px;
+  }
+
+  .cta-p-text-container p {
+    font-size: 18px;
+    line-height: 30px;
+    text-shadow: none;
+    color: rgba(29, 31, 41,0.75);
+
+  }
+
+  .cat-button {
+   display: flex;
+  }
+
+  .cat-button button {
+    min-width: 100%;
+    height: 100%;
+    background-color: rgb(22, 33, 62);
+    border-radius: 10px;
+
+  }
+
+  .cat-button a{
+    width: 100%;
+  }
+
+  .cta-upper-sub-container {
+    width: 95%;
+  }
+
+  .cat-button p {
+    font-size: 16px;
+    color: white;
+  }
+}

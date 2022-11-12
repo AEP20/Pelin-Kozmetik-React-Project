@@ -10,19 +10,20 @@
 .about-us-title-container {
   height: 20vh;
   width: 100%;
-  background-color: #16213e;
 
   display: flex;
   justify-content: center;
   align-items: center;
+
 }
 
 .about-us-title-container h1 {
-  color: white;
-  font-family: elza-narrow, sans-serif;
-  font-weight: 500;
+  color: rgba(29, 31, 34, 0.75);
+  font-family: 'Roboto Slab', serif;
+
+  font-weight: 400;
   font-style: normal;
-  font-size: 8vw;
+  font-size: 6.5vw;
 
 }
 
@@ -34,7 +35,7 @@
   align-items: center;
   flex-direction: column;
 
-  padding-top: 180px;
+  padding-top: 20px;
 }
 
 .about-us-sub-title-container {
@@ -42,8 +43,9 @@
 }
 
 .about-us-sub-title-container h1 {
-  font-family: elza-narrow, sans-serif;
-  font-weight: 600;
+  font-family: 'Roboto Slab', serif;
+
+  font-weight: 700;
   font-style: normal;
   font-size: 2.2vmin;
   color: #d2001a;
@@ -71,11 +73,11 @@
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 0 1rem 0 1rem;
+  padding: 0 2rem 0 2rem;
 }
 
 .info p {
-  font-size: 2.2vmin;
+  font-size: 2vmin;
   font-family: lato, sans-serif;
   font-weight: 500;
   font-style: normal;
@@ -88,14 +90,17 @@
 }
 
 @media only screen and (max-width: 650px) {
-  .about-us-title-container h1 {
-    font-size: 50px;
-  }
 
   .about-us-sub-container {
     padding-top: 10vh;
   }
 
+  .about-us-title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
   .about-us-title-container h1 {
     font-size: 40px;
   }
@@ -106,7 +111,7 @@
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
   .info p {
 

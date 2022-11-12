@@ -16,21 +16,19 @@ import Action from "../ActionComponent/Action";
 function MainPage() {
   return (
     <div>
+
       <header class="video-header">
+        <div className="contrast">
+        <Action></Action>
+
+        </div>
+        
         <video className="video-tag" autoPlay loop muted>
           <source src={clip} type="video/mp4" />
         </video>
-        <div class="viewport-header">
-          <div className="upper-main-container">
-            <div className="upper-sub-container"></div>
-          </div>
-
-          
-        </div>
       </header>
 
-      <main>
-        <Action></Action>
+      <div className="main">
         <AboutUs></AboutUs>
         <Statistics></Statistics>
         <Mission></Mission>
@@ -39,9 +37,13 @@ function MainPage() {
         <FAQ></FAQ>
         <ContactForm></ContactForm>
         <Footer></Footer>
-      </main>
+      </div>
     </div>
   );
 }
 
 export default MainPage;
+
+/*
+
+*/

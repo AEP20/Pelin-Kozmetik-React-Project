@@ -1,3 +1,5 @@
+/*
+
 @mixin coverer {
   width: 100vw;
   height: 100vh;
@@ -27,7 +29,6 @@
 
 html, body {
   height: 100%;
-  overflow-x: hidden;
 }
 
 body {
@@ -38,25 +39,78 @@ body {
 main {
   background: white;
   position: relative;
-  margin-top: 91vh; /* KRİTİK*/
+  margin-top: 95vh;
   &::before {
     content: "";
     @include coverer;
-    top: -91vh;
+    top: -95vh;
   }
   
 }
 
+*/
 
-@media only screen and (max-width: 500px) {
+html, body {
+  height: 100%;
+}
+
+body {
+  margin: 0;
+}
+
+.video-header {
+  position: absolute;
+  z-index: 0;
+  top:0;
+  left: 0;
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+
+.video-header video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+.contrast{
+  height: 100vh;
+  width: 100vw;
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+
+  background-color: rgba(0, 0, 0, 0.35);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main{
+  margin-top: 100vh;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
   .video-tag{
     display: none;
   }
 
   .video-header{
-    background-color: rgb(22, 33, 62);
+    background-color: #fcfcfc;
   }
 
+  .contrast{
 
+    background-color: rgba(0, 0, 0, 0);
+
+  }
 
 }

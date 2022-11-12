@@ -84,14 +84,14 @@ export default function BasicTabs() {
               opacity: "1",
               textTransform: "none",
               transition: "ease-in-out 0.3s",
-              fontSize:"1.7vmin",
-              fontFamily:"lato,sans-serif",
+              fontSize:"1.8vmin",
+              fontFamily:"Roboto Slab, serif",
               fontWeight:"600",
               color:"rgba(29, 31, 34, 1);",
 
               '@media screen and (max-width: 600px)': {
                 padding:"0px 7px",
-                fontSize:"12px",
+                fontSize:"14px",
                 minWidth:"10px",
               }
             },

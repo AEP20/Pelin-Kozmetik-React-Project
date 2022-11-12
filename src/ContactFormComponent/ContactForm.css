@@ -25,8 +25,8 @@
 }
 
 .contact-form-title-container h1{
-    font-family: elza-narrow, sans-serif;
-    font-weight: 500;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 400;
     font-style: normal;
     font-size: 6.5vw;
     color: rgba(29, 31, 41,0.75);
@@ -43,8 +43,8 @@
 }
 
 .contact-form-sub-title-container h1{
-    font-family: elza-narrow, sans-serif;
-    font-weight: 600;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 700;
     font-style: normal;
     font-size: 2.2vmin;
     color: #D2001A;
@@ -63,7 +63,8 @@
 
 
 label{
-    font-family: lato, sans-serif;
+    font-family: "Roboto Slab", serif;
+
   font-weight: 500;
   font-style: normal;
     color: rgba(29, 31, 41,0.75);
@@ -78,7 +79,8 @@ input {
     background-color: rgba(29, 31, 41, 0.05);
     padding: 10px;
     
-    font-family: lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+
   font-weight: 500;
   font-style: normal;
     color: rgba(29, 31, 41,0.75);
@@ -95,7 +97,8 @@ textarea{
     background-color: rgba(29, 31, 41, 0.05);
     padding: 10px;
     
-    font-family: lato, sans-serif;
+    font-family: 'Lato', sans-serif;
+
   font-weight: 500;
   font-style: normal;
     color: rgba(29, 31, 41,0.75);
@@ -183,7 +186,7 @@ input:focus {
 
     .contact-form-sub-container{
     
-        background-color: white;
+        background-color: #fcfcfc;
     }
 }
 

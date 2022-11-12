@@ -3,6 +3,8 @@ import "./Header.css";
 import Button from "./Button";
 import Menu from "./Menu";
 import PelinLogo from './PelinLogo.svg';
+import {Link} from 'react-scroll';
+
 
 
 function Header() {
@@ -13,9 +15,9 @@ function Header() {
         <div className="container">
           <header>
             <nav className="navbar">
-              <a href="#anasayfa">
+              <Link to="anasayfa" spy={true} smooth={true} offset={-30} duration={500}>
                 <img src={PelinLogo} alt="Pelin Kozmetik Logo" className="nav-branding"></img>
-              </a>
+              </Link>
               <Menu btnState={btnState}></Menu>
               <Button setBtnState={setBtnState} btnState={btnState}></Button>
             </nav>
