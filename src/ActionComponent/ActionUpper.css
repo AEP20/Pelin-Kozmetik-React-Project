@@ -19,7 +19,7 @@
   font-style: normal;
   font-size: 5.5vw;
   color: rgba(255, 255, 255, 0.9);
-  text-shadow: 0 3px 5px rgb(0 0 0 / 70%);
+  text-shadow: 0 3px 5px rgba(9, 9, 59, 0.7);
 }
 
 .cta-p-text-container {
@@ -37,7 +37,7 @@
   font-family: "Lato", sans-serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 2.1vmin;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.9);
   text-shadow: 0 3px 5px rgb(0 0 0 / 70%);
 }
@@ -65,7 +65,7 @@
   font-family: "Roboto Slab", serif;
   font-weight: 500;
   font-style: normal;
-  font-size: 2.5vmin;
+  font-size: 16px;
   color: rgba(29, 31, 41, 1);
 
   display: flex;
@@ -116,18 +116,17 @@
     align-items: flex-start;
     display: flex;
     justify-content: center;
-}
+  }
 
-.cta-h1-text-container h1 {
+  .cta-h1-text-container h1 {
     font-size: 48px;
     text-align: left;
     text-shadow: none;
-    color: rgba(29, 31, 41,0.9);
+    color: rgba(29, 31, 41, 0.9);
     font-weight: 500;
-
   }
 
-.cta-p-text-container {
+  .cta-p-text-container {
     text-align: left;
     align-items: center;
     height: 25%;
@@ -138,12 +137,11 @@
     font-size: 18px;
     line-height: 30px;
     text-shadow: none;
-    color: rgba(29, 31, 41,0.75);
-
+    color: rgba(29, 31, 41, 0.75);
   }
 
   .cat-button {
-   display: flex;
+    display: flex;
   }
 
   .cat-button button {
@@ -151,10 +149,9 @@
     height: 100%;
     background-color: rgb(22, 33, 62);
     border-radius: 10px;
-
   }
 
-  .cat-button a{
+  .cat-button a {
     width: 100%;
   }
 

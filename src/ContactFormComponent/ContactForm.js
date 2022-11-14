@@ -14,7 +14,7 @@ function ContactForm() {
     <div className='contact-form-dom-container' id="iletisim"> 
     <div className='contact-form-container'>
         <div className='contact-form-title-container'><h1>Bizimle İletişime Geçin</h1></div>
-        <div className='contact-form-sub-title-container'><h1>Bize sorucağınız sorular ve sizden gelen geri dönüşler bizim için çok değerli</h1></div>
+        <div className='contact-form-sub-title-container'><h2>Bize sorucağınız sorular ve sizden gelen geri dönüşler bizim için çok değerli</h2></div>
         <div className='contact-form-sub-container'>
             <div className='contact-form-left-container'>
                 <div className='contact-form-sub-left-container'>

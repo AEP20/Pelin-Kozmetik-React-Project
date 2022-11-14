@@ -5,6 +5,8 @@ import "./Mission.css";
 function Mission() {
   return (
     <div className='mission-container'>
+      <div className='mission-main-title-container'><h1>Misyonumuz ve Vizyonumuz</h1></div>
+      <div className='mission-sub-title-container'><h2>Misyon & Vizyon</h2></div>
         <div className='mission-container1'>
             <div className='mission-title-container1'><h1>Misyonumuz</h1></div>
             <div className='mission-vision1'><p>Fason kozmetik üretiminde Türkiye, Orta doğu ve avrupa ülkeri dahil dünyanın kozmetik üretim tesisi haline gelmektir.</p></div>

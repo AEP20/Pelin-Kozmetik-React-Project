@@ -84,9 +84,9 @@ export default function BasicTabs() {
               opacity: "1",
               textTransform: "none",
               transition: "ease-in-out 0.3s",
-              fontSize:"1.8vmin",
+              fontSize:"14px",
               fontFamily:"Roboto Slab, serif",
-              fontWeight:"600",
+              fontWeight:"500",
               color:"rgba(29, 31, 34, 1);",
 
               '@media screen and (max-width: 600px)': {
