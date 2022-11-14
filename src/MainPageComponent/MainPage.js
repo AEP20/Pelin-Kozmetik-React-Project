@@ -38,7 +38,6 @@ function MainPage() {
       <div className="main">
         <AboutUs></AboutUs>
         <Statistics></Statistics>
-        <Mission></Mission>
         <TrustUs></TrustUs>
         <BasicTabs></BasicTabs>
         <FAQ></FAQ>

@@ -59,8 +59,7 @@
 .about-us-info-container .info:nth-child(odd) {
   height: 11vh;
   width: 100%;
-  background-color: rgba(29, 31, 34, 0.05);
-
+  background-color: rgba(94, 124, 167, 0.15);
   border-radius: 10px;
   margin-bottom: 1rem;
 
@@ -69,8 +68,7 @@
 .about-us-info-container .info:nth-child(even) {
   height: 11vh;
   width: 100%;
-  background-color: rgba(29, 31, 34, 0.05);
-
+  background-color: rgba(64, 111, 177, 0.15);
   border-radius: 10px;
   margin-bottom: 1rem;
   color: rgba(5, 15, 31, 0.9);

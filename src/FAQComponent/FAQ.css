@@ -1,7 +1,7 @@
 .faq-container{
-    height: 100vh;
+    height: 95vh;
     width: 100%;
-    margin-top: 100px;
+
     
 }
 
@@ -46,7 +46,8 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-color: rgba(29, 31, 34, 0.05);
+    background-color: rgba(64, 111, 177, 0.15);
+
 
 }
 

@@ -50,8 +50,8 @@
 .contact-form-sub-container{
     height: 70vh;
     width: 100%;
+    background-color: rgba(64, 111, 177, 0.15);
 
-    background-color: rgba(29, 31, 41,0.05);
     display: flex;
     border-radius: 20px;
 }

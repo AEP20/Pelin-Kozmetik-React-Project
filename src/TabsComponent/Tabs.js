@@ -59,7 +59,10 @@ export default function BasicTabs() {
   };
 
   return (
+    
     <Box sx={{ width: "100%" }} className="tabs-container" >
+  <div className='tabs-main-title-container' id="urunlerimiz"><h1>Ürünlerimiz</h1></div>
+
       <Box sx={{}} className="tabs-button-container">
         <Tabs
           value={value}

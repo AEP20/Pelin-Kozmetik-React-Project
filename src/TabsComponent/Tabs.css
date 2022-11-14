@@ -1,6 +1,6 @@
 .tabs-container{
     margin-top: 80px;
-    height: 60vh;
+    height: 80vh;
     width: 100%;
 
     display: flex;
@@ -10,6 +10,25 @@
 
 }
 
+.tabs-main-title-container {
+    height: 15vh;
+    width: 100%;
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+  
+  .tabs-main-title-container h1 {
+    color: rgba(29, 31, 34, 0.75);
+    font-family: "Roboto Slab", serif;
+  
+    font-weight: 400;
+    font-style: normal;
+    font-size: 50px;
+    margin-bottom: 50px;
+  }
 
 
 
@@ -55,12 +74,13 @@
     align-items: center;
 
     position: absolute;
-    bottom: 0;
+    bottom: 40px;
     left: 0;
+
 }
 
 .tabpanel-left-container{
-    height: 100%;
+    height: 80%;
     width: 47%;
 
     display: flex;
@@ -99,7 +119,7 @@
 }
 
 .tabpanel-right-container{
-    height: 100%;
+    height: 80%;
     width: 53%;
 
     display: flex;
@@ -110,8 +130,8 @@
 }
 
 .tabpanel-right-container img{
-    height: 70%;
-    margin-bottom: 30px;
+    height: 75%;
+    margin-bottom: 20px;
 }
 
 
