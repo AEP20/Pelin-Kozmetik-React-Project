@@ -37,7 +37,6 @@ function MainPage() {
       </header>
 
       <div className="main">
-        <UpperWave></UpperWave>
         <AboutUs></AboutUs>
         <Statistics></Statistics>
         <TrustUs></TrustUs>
