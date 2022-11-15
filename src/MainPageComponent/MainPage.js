@@ -13,6 +13,7 @@ import ContactForm from "../ContactFormComponent/ContactForm";
 import BasicTabs from "../TabsComponent/Tabs";
 import Action from "../ActionComponent/Action";
 import ReactGA from "react-ga";
+import UpperwWave from "../UpperPartContainer/UpperWave";
 
 function initialGA(){
   ReactGA.initialize('G-L4XV6MY7D6');
@@ -36,6 +37,7 @@ function MainPage() {
       </header>
 
       <div className="main">
+        <UpperwWave></UpperwWave>
         <AboutUs></AboutUs>
         <Statistics></Statistics>
         <TrustUs></TrustUs>
