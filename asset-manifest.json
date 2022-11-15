@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/Pelin-Kozmetik-React-Project/static/css/main.1f3ab615.chunk.css",
-    "main.js": "/Pelin-Kozmetik-React-Project/static/js/main.13a5a9db.chunk.js",
-    "main.js.map": "/Pelin-Kozmetik-React-Project/static/js/main.13a5a9db.chunk.js.map",
+    "main.css": "/Pelin-Kozmetik-React-Project/static/css/main.bb745121.chunk.css",
+    "main.js": "/Pelin-Kozmetik-React-Project/static/js/main.e0e8b92d.chunk.js",
+    "main.js.map": "/Pelin-Kozmetik-React-Project/static/js/main.e0e8b92d.chunk.js.map",
     "runtime-main.js": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js",
     "runtime-main.js.map": "/Pelin-Kozmetik-React-Project/static/js/runtime-main.4e61ed67.js.map",
     "static/css/2.a1596f27.chunk.css": "/Pelin-Kozmetik-React-Project/static/css/2.a1596f27.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.d11e6176.chunk.js.map": "/Pelin-Kozmetik-React-Project/static/js/2.d11e6176.chunk.js.map",
     "index.html": "/Pelin-Kozmetik-React-Project/index.html",
     "static/css/2.a1596f27.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/2.a1596f27.chunk.css.map",
-    "static/css/main.1f3ab615.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/main.1f3ab615.chunk.css.map",
+    "static/css/main.bb745121.chunk.css.map": "/Pelin-Kozmetik-React-Project/static/css/main.bb745121.chunk.css.map",
     "static/js/2.d11e6176.chunk.js.LICENSE.txt": "/Pelin-Kozmetik-React-Project/static/js/2.d11e6176.chunk.js.LICENSE.txt",
     "static/media/A101.15af9ef4.png": "/Pelin-Kozmetik-React-Project/static/media/A101.15af9ef4.png",
     "static/media/BackgroundVideo.b78693fc.mp4": "/Pelin-Kozmetik-React-Project/static/media/BackgroundVideo.b78693fc.mp4",
@@ -39,7 +39,7 @@
     "static/js/runtime-main.4e61ed67.js",
     "static/css/2.a1596f27.chunk.css",
     "static/js/2.d11e6176.chunk.js",
-    "static/css/main.1f3ab615.chunk.css",
-    "static/js/main.13a5a9db.chunk.js"
+    "static/css/main.bb745121.chunk.css",
+    "static/js/main.e0e8b92d.chunk.js"
   ]
 }
