@@ -38,7 +38,7 @@
 }
 
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     .footer-container{
         height: 100vh;
     }
@@ -46,6 +46,12 @@
     .wave{
         display: none;
     }
+
+    .footer-container{
+
+        margin-top: 20px;
+    }
+    
 
 
 }

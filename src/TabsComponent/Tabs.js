@@ -67,7 +67,9 @@ export default function BasicTabs() {
         <Tabs
           value={value}
           onChange={handleChange}
-          aria-label="basic tabs example"
+          aria-label="scrollable prevent tabs example"
+          variant="scrollable"
+          scrollButtons={false}
           textColor="inherit"
           className="tabs-button-sub-container"
           sx={{
@@ -93,8 +95,8 @@ export default function BasicTabs() {
               color:"rgba(29, 31, 34, 1);",
 
               '@media screen and (max-width: 600px)': {
-                padding:"0px 5px",
-                fontSize:"12px",
+                padding:"0px 10px",
+                fontSize:"14px",
                 minWidth:"10px",
               }
             },
