@@ -177,7 +177,7 @@
     }
 
     .tabpanel-right-container img{
-        height: 35%;
+        height: 60%;
         margin-top: 20px;
     }
 
@@ -202,4 +202,8 @@
         justify-content: space-between;
         min-height: auto;
     }
+
+    .tabs-main-title-container h1 {
+        font-size: 40px;
+      }
 }

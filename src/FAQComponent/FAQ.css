@@ -207,15 +207,16 @@
     .faq-container{
         height: auto;
         width: 100%;
-        margin-top: 5vh;
+        margin-top: 0vh;
     }
     
     .faq-title-container h1{
         font-size: 40px;
         margin-bottom: 10px;
+        text-align: center;
     }
 
-    .faq-sub-title-container h1{
+    .faq-sub-title-container h2{
         font-size: 16px;
     }
 
@@ -264,6 +265,14 @@
 
     .faq-sub-container{
         background-color: rgba(64, 111, 177, 0);
+    }
+
+    .faq-sub-container {
+        width: 100%;
+    }
+
+    .faq-question h3{
+        padding: 10px 10px 10px 10px;
     }
 }
 

@@ -188,9 +188,21 @@
 
   .statistic-box {
     height: 90%;
-    width: 40%;
+    width: 45%;
     padding: 1rem;
     margin: 10px;
+  }
+
+  .statistics-container {
+    height: 85vh;
+  }
+
+  .statistics-sub-title-container h2 {
+    font-size: 16px;
+  }
+
+  .statistics-title-container h1 {
+    font-size: 40px;
   }
   
 }

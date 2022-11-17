@@ -93,8 +93,8 @@ export default function BasicTabs() {
               color:"rgba(29, 31, 34, 1);",
 
               '@media screen and (max-width: 600px)': {
-                padding:"0px 7px",
-                fontSize:"14px",
+                padding:"0px 5px",
+                fontSize:"12px",
                 minWidth:"10px",
               }
             },

@@ -213,7 +213,7 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 600px) {
     .contact-form-right-container{
         width: 100%;
     
@@ -227,5 +227,14 @@
 
     .send-button-container p{
         font-size: 18px;
+    }
+
+    .contact-form-right-sub-container1{
+        height: auto;
+        width: 100%;
+    }
+
+    .contact-form-right-sub-container2{
+        margin-top: 20px;
     }
 }
