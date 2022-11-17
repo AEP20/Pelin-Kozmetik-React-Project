@@ -58,15 +58,15 @@
   width: 100%;
 
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
   align-items: center;
-
+  
 
 }
 
 .statistic-box {
   height: 90%;
-  width: 20%;
+  width: 40%;
 
   position: relative;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -75,7 +75,7 @@
 
   border-radius: 5px;
   padding: 1rem;
-  margin-top: 30px;
+  margin: 30px;
 }
 
 .icon-container {
@@ -130,66 +130,71 @@
     transition: all 0.2s ease-out;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 10px 10px 2px;
 }
-@media only screen and (max-width: 950px) {
-  .icon-container img {
-    height: 50%;
-  }
 
-  .statistic p {
-    font-size: 16px;
-  }
+.statistic-sub-container1{
+  height: 100%;
+  width: 45%;
+
+
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
 }
 
-@media only screen and (max-width: 600px) {
-  .statistics-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    height: auto;
-  }
+.statistic-sub-container2{
+  height: 100%;
+  width: 45%;
 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media only screen and (max-width: 1000px) {
   .statistics-upper {
-    height: 100%;
-    width: 100%;
-
     flex-direction: column;
-
-    padding: 20px 0 0 0;
   }
 
-  .statistic-box {
-    height: 100%;
+  .statistic-sub-container1{
     width: 100%;
+  
+  
+    justify-content: center;
+    align-items: flex-end;
+  }
+  
+  .statistic-sub-container2{
+    width: 100%;
+    align-items: flex-start;
+
+    justify-content: center;
   }
 
   .icon-container img {
-    width: 17%;
-    height: 60%;
-    margin-bottom: 20px;
+    height: 20%;
+    top: 25px;
   }
 
   .statistic {
-    margin-bottom: 50px;
+    padding-bottom: 0px;
   }
 
-  .statistic p {
-    font-size: 16px;
+  .statistic p:nth-child(1) {
+    font-size: 40px;
+  }
+  
+  .statistic p:nth-child(2) {
+    font-size: 18px;
   }
 
-  .icon-container {
-    height: 60%;
+  .statistic-box {
+    height: 90%;
+    width: 40%;
+    padding: 1rem;
+    margin: 10px;
   }
+  
+}
 
-  .statistics-title-container {
-    margin-bottom: 20px;
-  }
-
-  .statistics-title-container h1 {
-    font-size: 16px;
-  }
-
-  .statistics-container {
-    margin-top: 10vh;
-  }
+@media only screen and (max-width: 600px) {
+  
 }

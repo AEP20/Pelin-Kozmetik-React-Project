@@ -81,7 +81,6 @@
   text-align: center;
   padding: 1rem 2rem 1rem 2rem;
     color: rgba(5, 15, 31, 0.9);
-
 }
 
 .info p {
@@ -118,6 +117,22 @@
 }
 
 @media only screen and (max-width: 600px) {
+
+  .about-us-info-container .info:nth-child(odd) {
+    border-radius: 0px;
+    margin-bottom: 0rem;
+  
+  }
+  
+  .about-us-info-container .info:nth-child(even) {
+    border-radius: 0px;
+    margin-bottom: 0rem;
+  }
+
+  .about-us-sub-container {
+    padding-top: 5px;
+  }
+  
   .info p {
     font-size: 16px;
     text-align: left;
