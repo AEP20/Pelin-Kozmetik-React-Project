@@ -11,10 +11,21 @@ function Header() {
 
     const [btnState, setBtnState] = useState(false);
 
+    var prevScrollpos = window.pageYOffset;
+window.onscroll = function() {
+  var currentScrollPos = window.pageYOffset;
+  if (prevScrollpos > currentScrollPos) {
+    document.getElementById("navbar").style.top = "0";
+  } else {
+    document.getElementById("navbar").style.top = "-50px";
+  }
+  prevScrollpos = currentScrollPos;
+}
+
     return (
-        <div className="container">
+        <div className="container" >
           <header>
-            <nav className="navbar">
+            <nav className="navbar" id="navbar">
               <Link to="anasayfa" spy={true} smooth={true} offset={-30} duration={500}>
                 <img src={PelinLogo} alt="Pelin Kozmetik Logo" className="nav-branding"></img>
               </Link>

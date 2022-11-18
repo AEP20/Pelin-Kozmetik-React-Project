@@ -13,7 +13,7 @@ import ContactForm from "../ContactFormComponent/ContactForm";
 import BasicTabs from "../TabsComponent/Tabs";
 import Action from "../ActionComponent/Action";
 import ReactGA from "react-ga";
-import UpperWave from "../UpperPartContainer/UpperWave";
+import Progress from "../ProgressComponent/Progress";
 
 function initialGA(){
   ReactGA.initialize('G-L4XV6MY7D6');
@@ -38,6 +38,7 @@ function MainPage() {
 
       <div className="main">
         <AboutUs></AboutUs>
+        <Progress></Progress>
         <Statistics></Statistics>
         <TrustUs></TrustUs>
         <BasicTabs></BasicTabs>

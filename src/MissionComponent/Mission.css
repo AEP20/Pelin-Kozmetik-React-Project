@@ -1,34 +1,64 @@
-.mission-container {
-  display: flex;
-  flex-direction: column;
-
-  margin-top: 120px;
+.mission-dom-container{
+  height: 40vh;
+  width: 100%;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 
-.mission-main-title-container {
-  padding: 20px 0 10px 0;
+.mission-upper-container{
+  height: 100%;
   width: 100%;
 
+
   display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+}
+
+.vision-container{
+  height: 100%;
+  width: 35%;
+
+}
+
+.mission-container{
+  height: 100%;
+  width: 35%;
+
+}
+
+.vision-icon-title-container{
+  height: 35%;
+  width: 100%;
+
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+
+.vision-icon-container{
+  height: 100%;
+  width: 25%;
+
+
+  display:flex;
   justify-content: center;
   align-items: center;
 }
 
-.mission-main-title-container h1 {
-  color: rgba(29, 31, 34, 0.75);
-  font-family: "Roboto Slab", serif;
+.vision-title-container{
+  height: 100%;
+  width: 75%;
 
-  font-weight: 400;
-  font-style: normal;
-  font-size: 50px;
+
+  display:flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
-.mission-sub-title-container {
-  margin-bottom: 40px;
-  margin-top: 20px;
-}
-
-.mission-sub-title-container h2 {
+.vision-title-container h1{
   font-family: "Roboto Slab", serif;
 
   font-weight: 500;
@@ -36,212 +66,89 @@
   font-size: 20px;
   color: #d2001a;
   text-align: center;
+
+  transform: translateX(-10px);
 }
 
-.mission-container1 {
-  background-color: rgba(29, 31, 34, 0.05);
-  height: 18vh;
+.vision-text-container{
+  height: 65%;
+  width: 100%;
+  padding: 0rem 1rem 1rem 2rem;
+}
 
-  display: flex;
+.vision-text-container p{
+  font-size: 16px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(5, 15, 31, 0.9);
+}
+
+.mission-icon-title-container{
+  height: 35%;
+  width: 100%;
+
+  display:flex;
+  justify-content: flex-start;
+
   align-items: center;
-  justify-content: space-between;
 
-  padding: 0 64px 0 64px;
 }
 
-.mission-container2 {
-  background-color: #16213e;
-  height: 18vh;
-
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  flex-direction: row-reverse;
-
-  padding: 0 64px 0 64px;
-}
-
-.mission-title-container1 {
+.mission-icon-container{
   height: 100%;
   width: 25%;
 
-  display: flex;
+
+  display:flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
 }
 
-.mission-title-container2 {
-  height: 100%;
-  width: 25%;
+.mission-text-container{
+  height: 65%;
+  width: 100%;
+  padding: 0rem 1rem 1rem 2rem;
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
 }
 
-.mission-title-container1 h1 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 600;
+.mission-text-container p{
+  font-size: 16px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
   font-style: normal;
-  font-size: 50px;
-  color: #16213e;
+  color: rgba(5, 15, 31, 0.9);
+  
 }
 
-.mission-title-container2 h1 {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 600;
-  font-style: normal;
-  font-size: 50px;
-  color: #fcfcfc;
+.vision-icon{
+  height: 50%;
 }
 
-.mission-vision1 {
+.mission-icon{
+  height: 45%;
+}
+
+.mission-title-container{
   height: 100%;
-  width: 65%;
-  justify-content: center;
+  width: 75%;
+
+
+  display:flex;
+  justify-content: flex-start;
   align-items: center;
-  display: flex;
-  text-align: center;
 }
 
-.mission-vision2 {
-  height: 100%;
-  width: 65%;
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  text-align: center;
-  padding-left: 30px;
-}
-
-.mission-vision1 p {
-  font-family: 'Lato', sans-serif;
-
+.mission-title-container h1{
+  font-family: "Roboto Slab", serif;
 
   font-weight: 500;
   font-style: normal;
-  color: #16213e;
-  font-size: 2vmin;
-}
+  font-size: 20px;
 
-.mission-vision2 p {
-  font-family: 'Lato', sans-serif;
+  color: #d2001a;
+  text-align: center;
 
-
-  font-weight: 500;
-  font-style: normal;
-  color: #fcfcfc;
-  font-size: 2vmin;
-
-}
-
-
-
-@media only screen and (max-width: 700px) {
-  .mission-title-container1 {
-    height: 80%;
-    width: 100%;
-    justify-content: flex-start;
-
-  }
-
-  .mission-title-container2 {
-    height: 80%;
-
-    width: 100%;
-    justify-content: flex-start;
-
-  }
-
-  .mission-title-container1 h1 {
-    font-size: 40px;
-    justify-content: flex-start;
-  }
-
-  .mission-title-container2 h1 {
-    font-size: 40px;
-    justify-content: flex-start;
-
-  }
-
-  .mission-container1 {
-    padding: 0 16px 0 16px;
-    flex-direction: column;
-    padding: 0;
-  }
-
-  .mission-container2 {
-    padding: 0 16px 0 16px;
-    flex-direction: column;
-    padding: 0;
-  }
-
-  .mission-vision1 {
-    width: 100%;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .mission-vision2 {
-    padding-left: 0px;
-    width: 100%;
-    align-items: flex-start;
-    text-align: left;
-  }
-
-  .mission-vision1 p {
-    font-size: 16px;
-  }
-
-  .mission-vision2 p {
-    font-size: 16px;
-  }
-
-  .mission-title-container1 h1 {
-    font-size: 30px;
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-
-  }
-
-  .mission-title-container2 h1 {
-    font-size: 30px;
-    width: 50%;
-    display: flex;
-    justify-content: flex-start;
-
-  }
-}
-
-@media only screen and (max-width: 600px) {
-    .mission-container {
-
-        margin-top: 10vh;
-      }
-
-      .mission-container1 {
-        height: auto;
-        padding: 2rem;
-      
-      }
-      
-      .mission-container2 {
-        height: auto;
-        padding: 2rem;
-      
-      }
-
-      .mission-title-container1 h1 {
-        margin-bottom: 20px;
-    
-      }
-    
-      .mission-title-container2 h1 {
-        margin-bottom: 20px;
-    
-      }
+  transform: translateX(-10px);
 
 }

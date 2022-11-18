@@ -1,0 +1,197 @@
+.mission-bottom-container {
+  height: 50vh;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+
+  margin-top: 80px;
+}
+
+.progress-title-container {
+  padding: 20px 0 10px 0;
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.progress-title-container h1 {
+  color: rgba(29, 31, 34, 0.75);
+  font-family: "Roboto Slab", serif;
+
+  font-weight: 400;
+  font-style: normal;
+  font-size: 50px;
+}
+
+.progress-sub-title-container {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.progress-sub-title-container h2 {
+  font-family: "Roboto Slab", serif;
+
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+  color: #d2001a;
+  text-align: center;
+}
+
+.mission-sub-container {
+  height: 80%;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.detail-container {
+  height: 80%;
+  width: 30%;
+  margin-top: 20px;
+
+  border-radius: 10px;
+  box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px;
+}
+
+.detail-container:hover .detail-icon-container img {
+  filter: brightness(0) invert(1);
+  transition: 0.3s all ease-in;
+}
+
+.detail-container:hover .detail-text-container p {
+  color: white;
+  transition: 0.3s all ease-in;
+}
+
+.detail-container:hover .detail-title-container h1 {
+  color: white;
+  transition: 0.3s all ease-in;
+}
+
+.detail-container:hover {
+  background-color: #16213e;
+  transition: 0.3s all ease-in;
+}
+
+.detail-icon-text-container {
+  height: 35%;
+  width: 100%;
+
+  display: flex;
+}
+
+.detail-icon-container {
+  height: 100%;
+  width: 25%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.detail-title-container {
+  height: 100%;
+  width: 75%;
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.detail-icon-container img {
+  height: 40%;
+}
+
+.detail-title-container h1 {
+  font-family: "Roboto Slab", serif;
+
+  font-weight: 500;
+  font-style: normal;
+  font-size: 20px;
+
+  color: #d2001a;
+  text-align: center;
+
+  transform: translateX(-10px);
+}
+
+.detail-text-container {
+  height: 40%;
+  width: 100%;
+  padding: 0rem 1rem 1rem 2rem;
+}
+
+.detail-text-container p {
+  font-size: 16px;
+  font-family: lato, sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  color: rgba(5, 15, 31, 0.9);
+}
+
+@media only screen and (max-width: 1000px) {
+    .mission-bottom-container {
+        height: 120vh;
+        margin-top: 80px;
+      }
+
+    .mission-sub-container {
+        height: 100%;
+        width: 100%;
+      
+        flex-direction: column;
+      }
+
+      .detail-container {
+        height: 33%;
+        width: 80%;
+
+        overflow:scroll;
+      }
+
+      .detail-icon-container {
+        display: none;
+      }
+
+      .detail-title-container{
+        padding-left: 1rem;
+      }
+
+      .detail-title-container h1 {
+        transform: translateX(-0px);
+        font-size: 18px;
+
+      }
+
+      .detail-icon-text-container {
+        height: 25%;
+      }
+
+      .detail-text-container {
+        height: 75%;
+        width: 100%;
+        padding: 0rem 1rem 1rem 1rem;
+      }
+
+      .progress-title-container h1 {
+        font-size: 40px;
+        text-align: center;
+      }
+
+      .progress-sub-title-container h2 {
+        font-size: 16px;
+        text-align: center;
+      }
+
+      
+      
+}
